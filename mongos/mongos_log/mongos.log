@@ -1,0 +1,1103 @@
+2015-06-17T14:42:50.638+0800 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-06-17T14:42:50.648+0800 I JOURNAL  [initandlisten] journal dir=C:\data\mongo\rs0\rs0_data\rs0_data_0\journal
+2015-06-17T14:42:50.648+0800 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-06-17T14:42:50.660+0800 I JOURNAL  [durability] Durability thread started
+2015-06-17T14:42:50.660+0800 I JOURNAL  [journal writer] Journal writer thread started
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] MongoDB starting : pid=7512 port=4000 dbpath=C:\data\mongo\rs0\rs0_data\rs0_data_0 64-bit host=jock-PC
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] db version v3.0.3
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1m-fips 19 Mar 2015
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] allocator: system
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] options: { config: "C:\data\mongo\rs0\rs0_cnf\rs0_0.conf", net: { port: 4000 }, replication: { replSet: "rs0" }, storage: { dbPath: "C:\data\mongo\rs0\rs0_data\rs0_data_0", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\data\mongo\rs0\rs0_log\rs0_0.log" } }
+2015-06-17T14:42:50.666+0800 I INDEX    [initandlisten] allocating new ns file C:\data\mongo\rs0\rs0_data\rs0_data_0\local.ns, filling with zeroes...
+2015-06-17T14:42:50.744+0800 I STORAGE  [FileAllocator] allocating new datafile C:\data\mongo\rs0\rs0_data\rs0_data_0\local.0, filling with zeroes...
+2015-06-17T14:42:50.744+0800 I STORAGE  [FileAllocator] creating directory C:\data\mongo\rs0\rs0_data\rs0_data_0\_tmp
+2015-06-17T14:42:50.891+0800 I STORAGE  [FileAllocator] done allocating datafile C:\data\mongo\rs0\rs0_data\rs0_data_0\local.0, size: 64MB,  took 0.144 secs
+2015-06-17T14:42:50.896+0800 I REPL     [initandlisten] Did not find local replica set configuration document at startup;  NoMatchingDocument Did not find replica set configuration document in local.system.replset
+2015-06-17T14:42:50.896+0800 I NETWORK  [initandlisten] waiting for connections on port 4000
+2015-06-17T14:42:53.163+0800 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-06-17T14:42:53.163+0800 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-06-17T14:42:53.164+0800 I CONTROL  [consoleTerminate] now exiting
+2015-06-17T14:42:53.164+0800 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-06-17T14:42:53.164+0800 I NETWORK  [consoleTerminate] closing listening socket: 372
+2015-06-17T14:42:53.164+0800 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-06-17T14:42:53.164+0800 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-06-17T14:42:53.165+0800 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-06-17T14:42:53.165+0800 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-06-17T14:42:53.304+0800 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-06-17T14:42:53.305+0800 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-06-17T14:42:53.306+0800 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-06-17T14:42:53.369+0800 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-06-17T14:42:53.369+0800 I JOURNAL  [durability] Durability thread stopped
+2015-06-17T14:42:53.369+0800 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-06-17T14:42:53.373+0800 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-06-17T14:42:53.373+0800 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-06-17T14:42:53.373+0800 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-06-17T15:33:51.856+0800 I CONTROL  ***** SERVER RESTARTED *****
+2015-06-17T15:33:51.866+0800 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-06-17T15:33:51.867+0800 I SHARDING [mongosMain] MongoS version 3.0.3 starting: pid=6992 port=4009 64-bit host=jock-PC (--help for usage)
+2015-06-17T15:33:51.867+0800 I CONTROL  [mongosMain] db version v3.0.3
+2015-06-17T15:33:51.867+0800 I CONTROL  [mongosMain] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-06-17T15:33:51.867+0800 I CONTROL  [mongosMain] OpenSSL version: OpenSSL 1.0.1m-fips 19 Mar 2015
+2015-06-17T15:33:51.867+0800 I CONTROL  [mongosMain] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-06-17T15:33:51.867+0800 I CONTROL  [mongosMain] allocator: system
+2015-06-17T15:33:51.867+0800 I CONTROL  [mongosMain] options: { config: "C:\data\mongo\mongos\mongos_cnf\mongos.conf", net: { port: 4009 }, sharding: { configDB: "jock-PC:4006,jock-PC:4007,jock-PC:4008" }, systemLog: { destination: "file", logAppend: true, path: "C:\data\mongo\mongos\mongos_log\mongos.log" } }
+2015-06-17T15:33:51.875+0800 I NETWORK  [mongosMain] SyncClusterConnection connecting to [jock-PC:4006]
+2015-06-17T15:33:51.876+0800 I NETWORK  [mongosMain] SyncClusterConnection connecting to [jock-PC:4007]
+2015-06-17T15:33:51.876+0800 I NETWORK  [mongosMain] SyncClusterConnection connecting to [jock-PC:4008]
+2015-06-17T15:33:51.932+0800 I NETWORK  [mongosMain] scoped connection to jock-PC:4006,jock-PC:4007,jock-PC:4008 not being returned to the pool
+2015-06-17T15:33:51.947+0800 I NETWORK  [mongosMain] SyncClusterConnection connecting to [jock-PC:4006]
+2015-06-17T15:33:51.947+0800 I SHARDING [LockPinger] creating distributed lock ping thread for jock-PC:4006,jock-PC:4007,jock-PC:4008 and process jock-PC:4009:1434526431:41 (sleeping for 30000ms)
+2015-06-17T15:33:51.947+0800 I NETWORK  [LockPinger] SyncClusterConnection connecting to [jock-PC:4006]
+2015-06-17T15:33:51.948+0800 I NETWORK  [mongosMain] SyncClusterConnection connecting to [jock-PC:4007]
+2015-06-17T15:33:51.948+0800 I NETWORK  [LockPinger] SyncClusterConnection connecting to [jock-PC:4007]
+2015-06-17T15:33:51.949+0800 I NETWORK  [mongosMain] SyncClusterConnection connecting to [jock-PC:4008]
+2015-06-17T15:33:51.949+0800 I NETWORK  [LockPinger] SyncClusterConnection connecting to [jock-PC:4008]
+2015-06-17T15:33:52.368+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:33:51 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:33:52.504+0800 I SHARDING [mongosMain] distributed lock 'configUpgrade/jock-PC:4009:1434526431:41' acquired, ts : 558122e0033e6c5852ec7ece
+2015-06-17T15:33:52.506+0800 I SHARDING [mongosMain] starting upgrade of config server from v0 to v6
+2015-06-17T15:33:52.506+0800 I SHARDING [mongosMain] starting next upgrade step from v0 to v6
+2015-06-17T15:33:52.506+0800 I SHARDING [mongosMain] about to log new metadata event: { _id: "jock-PC-2015-06-17T07:33:52-558122e0033e6c5852ec7ecf", server: "jock-PC", clientAddr: "N/A", time: new Date(1434526432506), what: "starting upgrade of config database", ns: "config.version", details: { from: 0, to: 6 } }
+2015-06-17T15:33:53.110+0800 I SHARDING [mongosMain] writing initial config version at v6
+2015-06-17T15:33:54.447+0800 I SHARDING [mongosMain] about to log new metadata event: { _id: "jock-PC-2015-06-17T07:33:54-558122e2033e6c5852ec7ed1", server: "jock-PC", clientAddr: "N/A", time: new Date(1434526434447), what: "finished upgrade of config database", ns: "config.version", details: { from: 0, to: 6 } }
+2015-06-17T15:33:55.504+0800 I SHARDING [mongosMain] upgrade of config server to v6 successful
+2015-06-17T15:33:55.505+0800 I NETWORK  [mongosMain] SyncClusterConnection connecting to [jock-PC:4006]
+2015-06-17T15:33:55.507+0800 I NETWORK  [mongosMain] SyncClusterConnection connecting to [jock-PC:4007]
+2015-06-17T15:33:55.508+0800 I NETWORK  [mongosMain] SyncClusterConnection connecting to [jock-PC:4008]
+2015-06-17T15:33:55.641+0800 I SHARDING [mongosMain] distributed lock 'configUpgrade/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:34:06.248+0800 I SHARDING [Balancer] about to contact config servers and shards
+2015-06-17T15:34:06.249+0800 I SHARDING [Balancer] config servers and shards contacted successfully
+2015-06-17T15:34:06.249+0800 I SHARDING [Balancer] balancer id: jock-PC:4009 started at Jun 17 15:34:06
+2015-06-17T15:34:06.252+0800 I NETWORK  [mongosMain] waiting for connections on port 4009
+2015-06-17T15:34:06.866+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558122ee033e6c5852ec7ed3
+2015-06-17T15:34:08.566+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:34:18.899+0800 I NETWORK  [mongosMain] connection accepted from 127.0.0.1:59776 #1 (1 connection now open)
+2015-06-17T15:34:18.900+0800 I SHARDING [conn1] couldn't find database [admin] in config db
+2015-06-17T15:34:18.968+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558122fa033e6c5852ec7ed5
+2015-06-17T15:34:20.252+0800 I SHARDING [conn1] 	 put [admin] on: config:jock-PC:4006,jock-PC:4007,jock-PC:4008
+2015-06-17T15:34:21.120+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:34:23.085+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:34:22 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:34:31.416+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812307033e6c5852ec7ed7
+2015-06-17T15:34:32.607+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:34:43.047+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812312033e6c5852ec7ed9
+2015-06-17T15:34:44.545+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:34:53.487+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:34:53 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:34:54.951+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581231e033e6c5852ec7edb
+2015-06-17T15:34:56.414+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:35:06.687+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581232a033e6c5852ec7edd
+2015-06-17T15:35:08.184+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:35:18.420+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812336033e6c5852ec7edf
+2015-06-17T15:35:20.177+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:35:23.749+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:35:23 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:35:30.449+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812342033e6c5852ec7ee1
+2015-06-17T15:35:31.708+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:35:42.012+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581234d033e6c5852ec7ee3
+2015-06-17T15:35:43.509+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:35:53.816+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812359033e6c5852ec7ee5
+2015-06-17T15:35:53.817+0800 I NETWORK  [Balancer] SyncClusterConnection connecting to [jock-PC:4006]
+2015-06-17T15:35:53.820+0800 I NETWORK  [Balancer] SyncClusterConnection connecting to [jock-PC:4007]
+2015-06-17T15:35:53.821+0800 I NETWORK  [Balancer] SyncClusterConnection connecting to [jock-PC:4008]
+2015-06-17T15:35:54.095+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:35:53 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:35:55.319+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:36:03.799+0800 I NETWORK  [conn1] starting new replica set monitor for replica set rs0 with seeds jock-PC:4000,jock-PC:4001
+2015-06-17T15:36:03.799+0800 I NETWORK  [ReplicaSetMonitorWatcher] starting
+2015-06-17T15:36:03.837+0800 I SHARDING [conn1] going to add shard: { _id: "rs0", host: "rs0/jock-PC:4000,jock-PC:4001" }
+2015-06-17T15:36:04.828+0800 I SHARDING [conn1] about to log metadata event: { _id: "jock-PC-2015-06-17T07:36:04-55812364033e6c5852ec7ee7", server: "jock-PC", clientAddr: "N/A", time: new Date(1434526564828), what: "addShard", ns: "", details: { name: "rs0", host: "rs0/jock-PC:4000,jock-PC:4001" } }
+2015-06-17T15:36:05.891+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812365033e6c5852ec7ee8
+2015-06-17T15:36:07.119+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:36:17.522+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812371033e6c5852ec7eea
+2015-06-17T15:36:18.649+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:36:18.943+0800 I NETWORK  [conn1] starting new replica set monitor for replica set rs1 with seeds jock-PC:4003,jock-PC:4004
+2015-06-17T15:36:18.956+0800 I SHARDING [conn1] going to add shard: { _id: "rs1", host: "rs1/jock-PC:4003,jock-PC:4004" }
+2015-06-17T15:36:20.291+0800 I SHARDING [conn1] about to log metadata event: { _id: "jock-PC-2015-06-17T07:36:20-55812374033e6c5852ec7eec", server: "jock-PC", clientAddr: "N/A", time: new Date(1434526580291), what: "addShard", ns: "", details: { name: "rs1", host: "rs1/jock-PC:4003,jock-PC:4004" } }
+2015-06-17T15:36:24.475+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:36:24 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:36:29.032+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581237c033e6c5852ec7eed
+2015-06-17T15:36:30.495+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:36:40.901+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812388033e6c5852ec7eef
+2015-06-17T15:36:42.399+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:36:52.737+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812394033e6c5852ec7ef1
+2015-06-17T15:36:54.304+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:36:54.881+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:36:54 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:37:04.617+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558123a0033e6c5852ec7ef3
+2015-06-17T15:37:05.775+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:37:16.046+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558123ab033e6c5852ec7ef5
+2015-06-17T15:37:16.898+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:37:17.278+0800 I NETWORK  [conn1] SyncClusterConnection connecting to [jock-PC:4006]
+2015-06-17T15:37:17.280+0800 I NETWORK  [conn1] SyncClusterConnection connecting to [jock-PC:4007]
+2015-06-17T15:37:17.280+0800 I NETWORK  [conn1] SyncClusterConnection connecting to [jock-PC:4008]
+2015-06-17T15:37:25.487+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:37:24 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:37:27.188+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558123b6033e6c5852ec7ef7
+2015-06-17T15:37:28.754+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:37:39.161+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558123c2033e6c5852ec7ef9
+2015-06-17T15:37:40.659+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:37:50.997+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558123ce033e6c5852ec7efb
+2015-06-17T15:37:51.882+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:37:55.894+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:37:55 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:38:02.186+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558123d9033e6c5852ec7efd
+2015-06-17T15:38:03.006+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:38:13.310+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558123e5033e6c5852ec7eff
+2015-06-17T15:38:14.195+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:38:24.500+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558123f0033e6c5852ec7f01
+2015-06-17T15:38:25.011+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:38:26.201+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:38:25 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:38:35.349+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558123fb033e6c5852ec7f03
+2015-06-17T15:38:36.812+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:38:47.218+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812406033e6c5852ec7f05
+2015-06-17T15:38:48.683+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:38:56.605+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:38:56 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:38:59.056+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812412033e6c5852ec7f07
+2015-06-17T15:39:00.213+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:39:10.623+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581241e033e6c5852ec7f09
+2015-06-17T15:39:12.121+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:39:22.392+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581242a033e6c5852ec7f0b
+2015-06-17T15:39:24.217+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:39:27.005+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:39:26 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:39:34.624+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812436033e6c5852ec7f0d
+2015-06-17T15:39:36.122+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:39:46.493+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812442033e6c5852ec7f0f
+2015-06-17T15:39:47.678+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:39:57.300+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:39:57 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:39:58.000+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581244d033e6c5852ec7f11
+2015-06-17T15:39:58.545+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:40:08.816+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812458033e6c5852ec7f13
+2015-06-17T15:40:09.943+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:40:20.212+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812463033e6c5852ec7f15
+2015-06-17T15:40:21.709+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:40:27.626+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:40:27 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:40:32.047+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581246f033e6c5852ec7f17
+2015-06-17T15:40:33.613+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:40:43.918+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581247b033e6c5852ec7f19
+2015-06-17T15:40:44.733+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:40:55.002+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812486033e6c5852ec7f1b
+2015-06-17T15:40:56.465+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:40:57.897+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:40:57 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:41:06.672+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812492033e6c5852ec7f1d
+2015-06-17T15:41:08.178+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:41:18.385+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581249e033e6c5852ec7f1f
+2015-06-17T15:41:20.152+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:41:28.210+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:41:27 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:41:30.456+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558124aa033e6c5852ec7f21
+2015-06-17T15:41:31.919+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:41:42.495+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558124b5033e6c5852ec7f23
+2015-06-17T15:41:43.992+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:41:54.297+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558124c1033e6c5852ec7f25
+2015-06-17T15:41:55.760+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:41:58.416+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:41:58 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:42:06.102+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558124cd033e6c5852ec7f27
+2015-06-17T15:42:06.953+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:42:17.189+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558124d8033e6c5852ec7f29
+2015-06-17T15:42:18.385+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:42:28.656+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558124e4033e6c5852ec7f2b
+2015-06-17T15:42:28.725+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:42:28 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:42:29.508+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:42:39.776+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558124ef033e6c5852ec7f2d
+2015-06-17T15:42:41.273+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:42:51.546+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558124fb033e6c5852ec7f2f
+2015-06-17T15:42:53.043+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:42:59.027+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:42:58 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:43:03.347+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812507033e6c5852ec7f31
+2015-06-17T15:43:04.138+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:43:14.408+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812512033e6c5852ec7f33
+2015-06-17T15:43:15.260+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:43:25.595+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581251d033e6c5852ec7f35
+2015-06-17T15:43:27.093+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:43:29.336+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:43:29 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:43:37.428+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812529033e6c5852ec7f37
+2015-06-17T15:43:38.926+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:43:49.298+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812534033e6c5852ec7f39
+2015-06-17T15:43:50.796+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:43:59.638+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:43:59 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:44:01.134+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812540033e6c5852ec7f3b
+2015-06-17T15:44:02.325+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:44:12.598+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581254c033e6c5852ec7f3d
+2015-06-17T15:44:14.164+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:44:24.468+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812558033e6c5852ec7f3f
+2015-06-17T15:44:25.933+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:44:29.944+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:44:29 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:44:36.271+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812563033e6c5852ec7f41
+2015-06-17T15:44:37.837+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:44:48.241+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581256f033e6c5852ec7f43
+2015-06-17T15:44:49.739+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:45:00.078+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581257b033e6c5852ec7f45
+2015-06-17T15:45:00.249+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:44:59 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:45:01.201+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:45:11.478+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812587033e6c5852ec7f47
+2015-06-17T15:45:12.669+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:45:23.282+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812592033e6c5852ec7f49
+2015-06-17T15:45:24.779+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:45:30.492+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:45:30 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:45:35.050+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581259e033e6c5852ec7f4b
+2015-06-17T15:45:36.588+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:45:47.097+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558125aa033e6c5852ec7f4d
+2015-06-17T15:45:48.594+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:45:58.864+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558125b6033e6c5852ec7f4f
+2015-06-17T15:45:59.994+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:46:00.741+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:46:00 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:46:10.562+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558125c1033e6c5852ec7f51
+2015-06-17T15:46:12.059+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:46:22.399+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558125ce033e6c5852ec7f53
+2015-06-17T15:46:24.201+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:46:31.002+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:46:30 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:46:34.473+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558125da033e6c5852ec7f55
+2015-06-17T15:46:35.937+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:46:46.206+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558125e5033e6c5852ec7f57
+2015-06-17T15:46:47.703+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:46:58.008+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558125f1033e6c5852ec7f59
+2015-06-17T15:46:59.795+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:47:01.161+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:47:01 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:47:10.388+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558125fd033e6c5852ec7f5b
+2015-06-17T15:47:11.887+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:47:22.191+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812609033e6c5852ec7f5d
+2015-06-17T15:47:23.654+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:47:31.305+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:47:31 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:47:33.822+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812615033e6c5852ec7f5f
+2015-06-17T15:47:34.981+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:47:45.353+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812620033e6c5852ec7f61
+2015-06-17T15:47:46.850+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:47:57.154+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581262c033e6c5852ec7f63
+2015-06-17T15:47:59.001+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:48:01.585+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:48:01 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:48:09.277+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812639033e6c5852ec7f65
+2015-06-17T15:48:10.775+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:48:21.112+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812644033e6c5852ec7f67
+2015-06-17T15:48:21.624+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:48:31.927+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:48:31 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:48:32.063+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581264f033e6c5852ec7f69
+2015-06-17T15:48:33.526+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:48:43.797+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581265b033e6c5852ec7f6b
+2015-06-17T15:48:44.648+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:48:54.989+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812666033e6c5852ec7f6d
+2015-06-17T15:48:56.180+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:49:02.199+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:49:01 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:49:06.382+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812672033e6c5852ec7f6f
+2015-06-17T15:49:07.888+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:49:18.159+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581267d033e6c5852ec7f71
+2015-06-17T15:49:19.623+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:49:29.886+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812689033e6c5852ec7f73
+2015-06-17T15:49:31.385+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:49:32.472+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:49:32 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:49:41.756+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812695033e6c5852ec7f75
+2015-06-17T15:49:42.981+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:49:53.251+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558126a0033e6c5852ec7f77
+2015-06-17T15:49:54.788+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:50:02.745+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:50:02 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:50:04.991+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558126ac033e6c5852ec7f79
+2015-06-17T15:50:06.114+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:50:16.389+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558126b8033e6c5852ec7f7b
+2015-06-17T15:50:18.263+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:50:28.401+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558126c4033e6c5852ec7f7d
+2015-06-17T15:50:29.899+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:50:33.094+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:50:32 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:50:40.270+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558126cf033e6c5852ec7f7f
+2015-06-17T15:50:41.767+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:50:52.037+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558126db033e6c5852ec7f81
+2015-06-17T15:50:53.568+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:51:03.365+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:51:03 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:51:03.842+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558126e7033e6c5852ec7f83
+2015-06-17T15:51:05.339+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:51:15.514+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558126f3033e6c5852ec7f85
+2015-06-17T15:51:16.979+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:51:27.383+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558126fe033e6c5852ec7f87
+2015-06-17T15:51:28.815+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:51:33.610+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:51:33 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:51:39.085+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581270a033e6c5852ec7f89
+2015-06-17T15:51:40.582+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:51:50.855+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812716033e6c5852ec7f8b
+2015-06-17T15:51:52.352+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:52:02.528+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812722033e6c5852ec7f8d
+2015-06-17T15:52:03.651+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:52:03.923+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:52:03 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:52:13.955+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581272d033e6c5852ec7f8f
+2015-06-17T15:52:14.807+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:52:25.178+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812738033e6c5852ec7f91
+2015-06-17T15:52:26.777+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:52:34.189+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:52:33 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:52:37.046+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812744033e6c5852ec7f93
+2015-06-17T15:52:38.543+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:52:48.881+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812750033e6c5852ec7f95
+2015-06-17T15:52:50.345+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:53:00.650+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581275c033e6c5852ec7f97
+2015-06-17T15:53:01.779+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:53:04.364+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:53:04 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:53:12.050+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812767033e6c5852ec7f99
+2015-06-17T15:53:13.513+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:53:23.682+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812773033e6c5852ec7f9b
+2015-06-17T15:53:25.180+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:53:34.632+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:53:34 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:53:35.382+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581277f033e6c5852ec7f9d
+2015-06-17T15:53:36.574+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:53:46.876+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581278a033e6c5852ec7f9f
+2015-06-17T15:53:48.067+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:53:58.406+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812796033e6c5852ec7fa1
+2015-06-17T15:53:59.836+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:54:04.841+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:54:04 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:54:09.976+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558127a1033e6c5852ec7fa3
+2015-06-17T15:54:11.439+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:54:21.742+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558127ad033e6c5852ec7fa5
+2015-06-17T15:54:23.342+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:54:33.627+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558127b9033e6c5852ec7fa7
+2015-06-17T15:54:34.819+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:54:35.159+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:54:34 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:54:45.090+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558127c4033e6c5852ec7fa9
+2015-06-17T15:54:46.553+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:54:56.858+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558127d0033e6c5852ec7fab
+2015-06-17T15:54:57.744+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:55:05.429+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:55:05 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:55:08.048+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558127db033e6c5852ec7fad
+2015-06-17T15:55:09.553+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:55:20.225+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558127e7033e6c5852ec7faf
+2015-06-17T15:55:21.825+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:55:32.094+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558127f3033e6c5852ec7fb1
+2015-06-17T15:55:33.627+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:55:35.701+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:55:35 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:55:43.931+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558127ff033e6c5852ec7fb3
+2015-06-17T15:55:44.851+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:55:55.190+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581280a033e6c5852ec7fb5
+2015-06-17T15:55:56.688+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:56:05.974+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:56:05 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:56:06.928+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812816033e6c5852ec7fb7
+2015-06-17T15:56:08.426+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:56:18.700+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812822033e6c5852ec7fb9
+2015-06-17T15:56:20.267+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:56:30.401+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581282e033e6c5852ec7fbb
+2015-06-17T15:56:31.965+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:56:36.249+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:56:35 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:56:42.268+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812839033e6c5852ec7fbd
+2015-06-17T15:56:43.459+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:56:53.764+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812845033e6c5852ec7fbf
+2015-06-17T15:56:55.260+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:57:05.573+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812851033e6c5852ec7fc1
+2015-06-17T15:57:06.282+0800 I NETWORK  [UserCacheInvalidator] SyncClusterConnection connecting to [jock-PC:4006]
+2015-06-17T15:57:06.285+0800 I NETWORK  [UserCacheInvalidator] SyncClusterConnection connecting to [jock-PC:4007]
+2015-06-17T15:57:06.286+0800 I NETWORK  [UserCacheInvalidator] SyncClusterConnection connecting to [jock-PC:4008]
+2015-06-17T15:57:06.712+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:57:06 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:57:07.096+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:57:17.366+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581285d033e6c5852ec7fc3
+2015-06-17T15:57:18.829+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:57:29.099+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812868033e6c5852ec7fc5
+2015-06-17T15:57:30.596+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:57:36.955+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:57:36 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:57:40.969+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812874033e6c5852ec7fc7
+2015-06-17T15:57:42.714+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:57:53.021+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812880033e6c5852ec7fc9
+2015-06-17T15:57:54.518+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:58:04.755+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581288c033e6c5852ec7fcb
+2015-06-17T15:58:05.885+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:58:07.211+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:58:06 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:58:16.155+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812897033e6c5852ec7fcd
+2015-06-17T15:58:17.670+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:58:28.310+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558128a3033e6c5852ec7fcf
+2015-06-17T15:58:29.807+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:58:37.493+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:58:37 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:58:40.181+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558128af033e6c5852ec7fd1
+2015-06-17T15:58:41.712+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:58:51.877+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558128bb033e6c5852ec7fd3
+2015-06-17T15:58:53.312+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:59:03.580+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558128c7033e6c5852ec7fd5
+2015-06-17T15:59:05.079+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:59:07.840+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:59:07 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:59:15.354+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558128d3033e6c5852ec7fd7
+2015-06-17T15:59:16.818+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:59:27.157+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558128de033e6c5852ec7fd9
+2015-06-17T15:59:28.654+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:59:38.208+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 15:59:37 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T15:59:38.991+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558128ea033e6c5852ec7fdb
+2015-06-17T15:59:40.422+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T15:59:50.724+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558128f6033e6c5852ec7fdd
+2015-06-17T15:59:52.221+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:00:02.394+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812902033e6c5852ec7fdf
+2015-06-17T16:00:03.551+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:00:08.481+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:00:08 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:00:13.827+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581290d033e6c5852ec7fe1
+2015-06-17T16:00:14.712+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:00:25.349+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812918033e6c5852ec7fe3
+2015-06-17T16:00:26.610+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:00:36.914+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812924033e6c5852ec7fe5
+2015-06-17T16:00:38.377+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:00:38.888+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:00:38 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:00:48.715+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812930033e6c5852ec7fe7
+2015-06-17T16:00:50.213+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:01:00.483+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581293c033e6c5852ec7fe9
+2015-06-17T16:01:01.544+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:01:09.160+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:01:08 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:01:11.848+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812947033e6c5852ec7feb
+2015-06-17T16:01:13.345+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:01:23.683+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812953033e6c5852ec7fed
+2015-06-17T16:01:24.876+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:01:35.179+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581295e033e6c5852ec7fef
+2015-06-17T16:01:36.677+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:01:39.430+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:01:39 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:01:46.946+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581296a033e6c5852ec7ff1
+2015-06-17T16:01:48.138+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:01:58.337+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812976033e6c5852ec7ff3
+2015-06-17T16:01:59.494+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:02:09.703+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:02:09 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:02:09.772+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812981033e6c5852ec7ff5
+2015-06-17T16:02:11.269+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:02:21.649+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581298d033e6c5852ec7ff7
+2015-06-17T16:02:23.057+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:02:33.224+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812999033e6c5852ec7ff9
+2015-06-17T16:02:34.655+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:02:39.858+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:02:39 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:02:44.823+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558129a4033e6c5852ec7ffb
+2015-06-17T16:02:46.320+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:02:56.624+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558129b0033e6c5852ec7ffd
+2015-06-17T16:02:58.121+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:03:08.295+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558129bc033e6c5852ec7fff
+2015-06-17T16:03:09.794+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:03:10.235+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:03:09 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:03:20.198+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558129c7033e6c5852ec8001
+2015-06-17T16:03:21.630+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:03:31.899+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558129d3033e6c5852ec8003
+2015-06-17T16:03:33.091+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:03:40.503+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:03:40 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:03:43.292+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558129df033e6c5852ec8005
+2015-06-17T16:03:44.722+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:03:54.961+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558129ea033e6c5852ec8007
+2015-06-17T16:03:56.493+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:04:06.763+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558129f6033e6c5852ec8009
+2015-06-17T16:04:08.261+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:04:10.783+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:04:10 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:04:18.536+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812a02033e6c5852ec800b
+2015-06-17T16:04:20.297+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:04:30.567+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812a0e033e6c5852ec800d
+2015-06-17T16:04:32.066+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:04:41.178+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:04:40 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:04:42.404+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812a1a033e6c5852ec800f
+2015-06-17T16:04:43.868+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:04:54.139+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812a25033e6c5852ec8011
+2015-06-17T16:04:55.637+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:05:05.809+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812a31033e6c5852ec8013
+2015-06-17T16:05:06.660+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:05:11.355+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:05:11 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:05:16.934+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812a3c033e6c5852ec8015
+2015-06-17T16:05:18.431+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:05:28.769+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812a48033e6c5852ec8017
+2015-06-17T16:05:30.267+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:05:40.570+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812a54033e6c5852ec8019
+2015-06-17T16:05:41.728+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:05:41 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:05:41.728+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:05:51.896+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812a5f033e6c5852ec801b
+2015-06-17T16:05:53.463+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:06:03.634+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812a6b033e6c5852ec801d
+2015-06-17T16:06:04.758+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:06:12.000+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:06:11 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:06:15.033+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812a76033e6c5852ec801f
+2015-06-17T16:06:16.530+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:06:26.834+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812a82033e6c5852ec8021
+2015-06-17T16:06:28.332+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:06:38.669+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812a8e033e6c5852ec8023
+2015-06-17T16:06:40.167+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:06:42.310+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:06:42 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:06:50.438+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812a9a033e6c5852ec8025
+2015-06-17T16:06:51.869+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:07:02.072+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812aa5033e6c5852ec8027
+2015-06-17T16:07:03.167+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:07:12.448+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:07:12 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:07:13.333+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812ab1033e6c5852ec8029
+2015-06-17T16:07:14.525+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:07:24.863+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812abc033e6c5852ec802b
+2015-06-17T16:07:26.360+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:07:36.732+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812ac8033e6c5852ec802d
+2015-06-17T16:07:38.230+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:07:42.752+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:07:42 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:07:48.600+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812ad4033e6c5852ec802f
+2015-06-17T16:07:50.098+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:08:00.402+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812ae0033e6c5852ec8031
+2015-06-17T16:08:01.662+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:08:11.905+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812aeb033e6c5852ec8033
+2015-06-17T16:08:13.096+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:08:12 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:08:13.096+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:08:23.400+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812af7033e6c5852ec8035
+2015-06-17T16:08:24.898+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:08:35.202+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812b02033e6c5852ec8037
+2015-06-17T16:08:36.700+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:08:43.399+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:08:43 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:08:47.107+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812b0e033e6c5852ec8039
+2015-06-17T16:08:48.550+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:08:58.819+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812b1a033e6c5852ec803b
+2015-06-17T16:08:59.977+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:09:10.248+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812b25033e6c5852ec803d
+2015-06-17T16:09:11.378+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:09:13.655+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:09:13 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:09:21.614+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812b31033e6c5852ec803f
+2015-06-17T16:09:23.146+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:09:33.444+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812b3d033e6c5852ec8041
+2015-06-17T16:09:34.943+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:09:44.054+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:09:43 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:09:45.346+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812b48033e6c5852ec8043
+2015-06-17T16:09:46.809+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:09:57.147+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812b54033e6c5852ec8045
+2015-06-17T16:09:58.554+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:10:08.826+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812b60033e6c5852ec8047
+2015-06-17T16:10:10.393+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:10:14.374+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:10:14 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:10:20.632+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812b6c033e6c5852ec8049
+2015-06-17T16:10:22.198+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:10:32.467+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812b78033e6c5852ec804b
+2015-06-17T16:10:33.964+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:10:44.268+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812b83033e6c5852ec804d
+2015-06-17T16:10:44.713+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:10:44 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:10:45.769+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:10:56.072+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812b8f033e6c5852ec804f
+2015-06-17T16:10:57.265+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:11:07.543+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812b9b033e6c5852ec8051
+2015-06-17T16:11:09.075+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:11:14.990+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:11:14 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:11:19.277+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812ba7033e6c5852ec8053
+2015-06-17T16:11:20.775+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:11:31.044+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812bb2033e6c5852ec8055
+2015-06-17T16:11:32.508+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:11:43.114+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812bbe033e6c5852ec8057
+2015-06-17T16:11:44.611+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:11:45.325+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:11:44 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:11:54.951+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812bca033e6c5852ec8059
+2015-06-17T16:11:55.530+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:12:05.868+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812bd5033e6c5852ec805b
+2015-06-17T16:12:06.656+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:12:15.600+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:12:15 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:12:16.927+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812be0033e6c5852ec805d
+2015-06-17T16:12:18.652+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:12:28.955+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812bec033e6c5852ec805f
+2015-06-17T16:12:30.453+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:12:40.826+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812bf8033e6c5852ec8061
+2015-06-17T16:12:42.289+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:12:45.859+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:12:45 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:12:52.491+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812c04033e6c5852ec8063
+2015-06-17T16:12:53.988+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:13:04.258+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812c0f033e6c5852ec8065
+2015-06-17T16:13:05.415+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:13:15.589+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812c1b033e6c5852ec8067
+2015-06-17T16:13:16.439+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:13:15 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:13:16.643+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:13:26.778+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812c26033e6c5852ec8069
+2015-06-17T16:13:28.276+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:13:38.544+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812c32033e6c5852ec806b
+2015-06-17T16:13:39.979+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:13:46.710+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:13:46 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:13:50.247+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812c3d033e6c5852ec806d
+2015-06-17T16:13:51.710+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:14:01.982+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812c49033e6c5852ec806f
+2015-06-17T16:14:03.139+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:14:13.414+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812c55033e6c5852ec8071
+2015-06-17T16:14:14.879+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:14:16.952+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:14:16 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:14:25.249+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812c60033e6c5852ec8073
+2015-06-17T16:14:26.440+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:14:36.812+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812c6c033e6c5852ec8075
+2015-06-17T16:14:38.309+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:14:47.219+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:14:46 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:14:48.579+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812c78033e6c5852ec8077
+2015-06-17T16:14:50.077+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:15:00.319+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812c84033e6c5852ec8079
+2015-06-17T16:15:01.173+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:15:11.442+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812c8f033e6c5852ec807b
+2015-06-17T16:15:13.058+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:15:17.479+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:15:17 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:15:23.329+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812c9b033e6c5852ec807d
+2015-06-17T16:15:24.895+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:15:35.199+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812ca6033e6c5852ec807f
+2015-06-17T16:15:36.356+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:15:46.696+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812cb2033e6c5852ec8081
+2015-06-17T16:15:47.819+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:15:47.888+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:15:47 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:15:58.088+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812cbd033e6c5852ec8083
+2015-06-17T16:15:59.525+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:16:09.794+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812cc9033e6c5852ec8085
+2015-06-17T16:16:11.292+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:16:18.412+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:16:17 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:16:21.723+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812cd5033e6c5852ec8087
+2015-06-17T16:16:23.145+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:16:33.383+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812ce1033e6c5852ec8089
+2015-06-17T16:16:35.017+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:16:45.321+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812ced033e6c5852ec808b
+2015-06-17T16:16:46.786+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:16:48.657+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:16:48 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:16:56.988+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812cf8033e6c5852ec808d
+2015-06-17T16:16:57.635+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:17:07.913+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812d03033e6c5852ec808f
+2015-06-17T16:17:09.412+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:17:18.932+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:17:18 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:17:20.040+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812d0f033e6c5852ec8091
+2015-06-17T16:17:20.960+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:17:31.222+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812d1a033e6c5852ec8093
+2015-06-17T16:17:32.685+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:17:43.383+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812d26033e6c5852ec8095
+2015-06-17T16:17:44.883+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:17:49.201+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:17:48 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:17:55.120+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812d32033e6c5852ec8097
+2015-06-17T16:17:56.312+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:18:06.516+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812d3e033e6c5852ec8099
+2015-06-17T16:18:07.302+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:18:17.606+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812d49033e6c5852ec809b
+2015-06-17T16:18:19.138+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:18:19.547+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:18:19 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:18:29.407+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812d55033e6c5852ec809d
+2015-06-17T16:18:30.870+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:18:41.174+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812d60033e6c5852ec809f
+2015-06-17T16:18:42.636+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:18:49.946+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:18:49 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:18:53.077+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812d6c033e6c5852ec80a1
+2015-06-17T16:18:54.541+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:19:04.810+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812d78033e6c5852ec80a3
+2015-06-17T16:19:05.934+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:19:16.178+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812d83033e6c5852ec80a5
+2015-06-17T16:19:17.642+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:19:20.527+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:19:19 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:19:28.112+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812d8f033e6c5852ec80a7
+2015-06-17T16:19:29.679+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:19:40.083+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812d9b033e6c5852ec80a9
+2015-06-17T16:19:41.581+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:19:50.795+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:19:50 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:19:51.850+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812da7033e6c5852ec80ab
+2015-06-17T16:19:53.342+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:20:03.613+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812db3033e6c5852ec80ad
+2015-06-17T16:20:04.806+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:20:14.978+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812dbe033e6c5852ec80af
+2015-06-17T16:20:16.441+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:20:21.099+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:20:20 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:20:26.781+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812dca033e6c5852ec80b1
+2015-06-17T16:20:28.279+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:20:38.616+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812dd6033e6c5852ec80b3
+2015-06-17T16:20:40.080+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:20:50.384+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812de2033e6c5852ec80b5
+2015-06-17T16:20:52.096+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:20:52.096+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:20:51 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:21:02.367+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812dee033e6c5852ec80b7
+2015-06-17T16:21:03.524+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:21:13.727+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812df9033e6c5852ec80b9
+2015-06-17T16:21:14.550+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:21:22.369+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:21:22 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:21:24.818+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812e04033e6c5852ec80bb
+2015-06-17T16:21:26.281+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:21:36.484+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812e10033e6c5852ec80bd
+2015-06-17T16:21:37.983+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:21:48.252+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812e1b033e6c5852ec80bf
+2015-06-17T16:21:49.784+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:21:52.640+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:21:52 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:22:00.120+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812e27033e6c5852ec80c1
+2015-06-17T16:22:01.213+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:22:11.585+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812e33033e6c5852ec80c3
+2015-06-17T16:22:13.116+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:22:23.093+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:22:22 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:22:23.298+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812e3f033e6c5852ec80c5
+2015-06-17T16:22:24.558+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:22:34.897+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812e4a033e6c5852ec80c7
+2015-06-17T16:22:36.463+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:22:46.835+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812e56033e6c5852ec80c9
+2015-06-17T16:22:48.267+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:22:53.366+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:22:53 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:22:58.570+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812e62033e6c5852ec80cb
+2015-06-17T16:22:59.729+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:23:09.866+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812e6d033e6c5852ec80cd
+2015-06-17T16:23:11.329+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:23:21.737+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812e79033e6c5852ec80cf
+2015-06-17T16:23:23.240+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:23:23.512+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:23:23 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:23:33.509+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812e85033e6c5852ec80d1
+2015-06-17T16:23:34.636+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:23:44.837+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812e90033e6c5852ec80d3
+2015-06-17T16:23:46.334+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:23:53.714+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:23:53 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:23:56.502+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812e9c033e6c5852ec80d5
+2015-06-17T16:23:57.693+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:24:07.935+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812ea7033e6c5852ec80d7
+2015-06-17T16:24:09.501+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:24:20.088+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812eb3033e6c5852ec80d9
+2015-06-17T16:24:21.585+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:24:23.966+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:24:23 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:24:31.958+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812ebf033e6c5852ec80db
+2015-06-17T16:24:33.380+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:24:43.686+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812ecb033e6c5852ec80dd
+2015-06-17T16:24:45.184+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:24:54.227+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:24:53 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:24:55.491+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812ed7033e6c5852ec80df
+2015-06-17T16:24:56.990+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:25:07.295+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812ee2033e6c5852ec80e1
+2015-06-17T16:25:08.425+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:25:18.594+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812eee033e6c5852ec80e3
+2015-06-17T16:25:20.092+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:25:24.480+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:25:24 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:25:30.363+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812efa033e6c5852ec80e5
+2015-06-17T16:25:31.862+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:25:42.132+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812f05033e6c5852ec80e7
+2015-06-17T16:25:43.629+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:25:53.899+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812f11033e6c5852ec80e9
+2015-06-17T16:25:55.367+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:25:55.402+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:25:54 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:26:05.638+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812f1d033e6c5852ec80eb
+2015-06-17T16:26:07.135+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:26:17.411+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812f29033e6c5852ec80ed
+2015-06-17T16:26:18.977+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:26:25.675+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:26:25 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:26:29.181+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812f34033e6c5852ec80ef
+2015-06-17T16:26:30.678+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:26:41.050+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812f40033e6c5852ec80f1
+2015-06-17T16:26:42.513+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:26:52.750+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812f4c033e6c5852ec80f3
+2015-06-17T16:26:54.213+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:26:55.949+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:26:55 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:27:04.520+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812f58033e6c5852ec80f5
+2015-06-17T16:27:06.044+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:27:16.285+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812f64033e6c5852ec80f7
+2015-06-17T16:27:17.850+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:27:26.351+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:27:25 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:27:28.222+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812f6f033e6c5852ec80f9
+2015-06-17T16:27:29.724+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:27:39.998+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812f7b033e6c5852ec80fb
+2015-06-17T16:27:41.257+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:27:51.629+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812f87033e6c5852ec80fd
+2015-06-17T16:27:52.821+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:27:56.731+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:27:56 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:28:03.097+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812f92033e6c5852ec80ff
+2015-06-17T16:28:04.254+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:28:14.558+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812f9e033e6c5852ec8101
+2015-06-17T16:28:16.021+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:28:26.324+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812faa033e6c5852ec8103
+2015-06-17T16:28:27.175+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:28:26 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:28:27.413+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:28:37.684+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812fb5033e6c5852ec8105
+2015-06-17T16:28:38.875+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:28:49.220+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812fc0033e6c5852ec8107
+2015-06-17T16:28:50.411+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:28:57.551+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:28:57 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:29:00.680+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812fcc033e6c5852ec8109
+2015-06-17T16:29:01.803+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:29:11.976+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812fd7033e6c5852ec810b
+2015-06-17T16:29:13.473+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:29:23.781+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812fe3033e6c5852ec810d
+2015-06-17T16:29:24.973+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:29:27.811+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:29:27 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:29:35.259+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812fee033e6c5852ec810f
+2015-06-17T16:29:36.450+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:29:46.788+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55812ffa033e6c5852ec8111
+2015-06-17T16:29:47.640+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:29:57.845+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813005033e6c5852ec8113
+2015-06-17T16:29:58.050+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:29:57 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:29:58.663+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:30:08.941+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813010033e6c5852ec8115
+2015-06-17T16:30:10.383+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:30:20.551+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581301c033e6c5852ec8117
+2015-06-17T16:30:22.049+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:30:28.338+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:30:28 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:30:32.352+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813028033e6c5852ec8119
+2015-06-17T16:30:33.851+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:30:44.121+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813033033e6c5852ec811b
+2015-06-17T16:30:45.652+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:30:55.961+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581303f033e6c5852ec811d
+2015-06-17T16:30:57.459+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:30:58.580+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:30:58 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:31:07.728+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581304b033e6c5852ec811f
+2015-06-17T16:31:08.518+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:31:18.786+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813056033e6c5852ec8121
+2015-06-17T16:31:20.283+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:31:28.989+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:31:28 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:31:30.690+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813062033e6c5852ec8123
+2015-06-17T16:31:32.187+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:31:42.525+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581306e033e6c5852ec8125
+2015-06-17T16:31:44.028+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:31:54.331+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581307a033e6c5852ec8127
+2015-06-17T16:31:55.766+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:31:59.234+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:31:58 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:32:06.037+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813085033e6c5852ec8129
+2015-06-17T16:32:07.603+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:32:17.879+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813091033e6c5852ec812b
+2015-06-17T16:32:18.426+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:32:28.763+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581309c033e6c5852ec812d
+2015-06-17T16:32:29.581+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:32:29 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:32:29.581+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:32:39.850+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558130a7033e6c5852ec812f
+2015-06-17T16:32:41.351+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:32:51.621+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558130b3033e6c5852ec8131
+2015-06-17T16:32:53.119+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:32:59.786+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:32:59 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:33:03.290+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558130bf033e6c5852ec8133
+2015-06-17T16:33:04.107+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:33:14.285+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558130ca033e6c5852ec8135
+2015-06-17T16:33:15.851+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:33:26.187+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558130d5033e6c5852ec8137
+2015-06-17T16:33:27.688+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:33:30.035+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:33:29 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:33:37.959+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558130e1033e6c5852ec8139
+2015-06-17T16:33:39.456+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:33:49.728+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558130ed033e6c5852ec813b
+2015-06-17T16:33:51.193+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:34:00.269+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:34:00 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:34:01.434+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558130f9033e6c5852ec813d
+2015-06-17T16:34:02.625+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:34:12.895+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813104033e6c5852ec813f
+2015-06-17T16:34:14.395+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:34:24.700+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813110033e6c5852ec8141
+2015-06-17T16:34:26.265+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:34:30.585+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:34:30 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:34:36.570+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581311c033e6c5852ec8143
+2015-06-17T16:34:38.104+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:34:48.373+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813128033e6c5852ec8145
+2015-06-17T16:34:49.870+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:35:00.208+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813133033e6c5852ec8147
+2015-06-17T16:35:01.025+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:35:00 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:35:01.713+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:35:11.880+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581313f033e6c5852ec8149
+2015-06-17T16:35:13.378+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:35:23.749+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581314b033e6c5852ec814b
+2015-06-17T16:35:25.246+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:35:31.299+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:35:31 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:35:35.551+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813157033e6c5852ec814d
+2015-06-17T16:35:36.742+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:35:47.147+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813162033e6c5852ec814f
+2015-06-17T16:35:48.612+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:35:58.881+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581316e033e6c5852ec8151
+2015-06-17T16:36:00.072+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:36:01.608+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:36:01 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:36:10.212+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581317a033e6c5852ec8153
+2015-06-17T16:36:11.675+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:36:21.983+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813185033e6c5852ec8155
+2015-06-17T16:36:23.517+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:36:31.914+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:36:31 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:36:33.854+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813191033e6c5852ec8157
+2015-06-17T16:36:34.741+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:36:45.111+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581319c033e6c5852ec8159
+2015-06-17T16:36:46.609+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:36:56.878+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558131a8033e6c5852ec815b
+2015-06-17T16:36:57.423+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:37:02.185+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:37:01 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:37:07.699+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558131b3033e6c5852ec815d
+2015-06-17T16:37:08.926+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:37:19.196+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558131be033e6c5852ec815f
+2015-06-17T16:37:20.829+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:37:30.998+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558131ca033e6c5852ec8161
+2015-06-17T16:37:32.563+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:37:32.564+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:37:32 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:37:42.902+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558131d6033e6c5852ec8163
+2015-06-17T16:37:44.399+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:37:54.737+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558131e2033e6c5852ec8165
+2015-06-17T16:37:56.172+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:38:02.837+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:38:02 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:38:06.442+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558131ee033e6c5852ec8167
+2015-06-17T16:38:07.667+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:38:17.945+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558131f9033e6c5852ec8169
+2015-06-17T16:38:19.376+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:38:29.646+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813205033e6c5852ec816b
+2015-06-17T16:38:31.144+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:38:33.115+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:38:32 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:38:41.447+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813211033e6c5852ec816d
+2015-06-17T16:38:42.638+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:38:53.044+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581321c033e6c5852ec816f
+2015-06-17T16:38:54.507+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:39:03.420+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:39:03 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:39:04.815+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813228033e6c5852ec8171
+2015-06-17T16:39:06.006+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:39:16.214+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813234033e6c5852ec8173
+2015-06-17T16:39:17.714+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:39:27.980+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581323f033e6c5852ec8175
+2015-06-17T16:39:29.515+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:39:33.663+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:39:33 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:39:39.785+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581324b033e6c5852ec8177
+2015-06-17T16:39:41.248+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:39:51.586+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813257033e6c5852ec8179
+2015-06-17T16:39:52.778+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:40:02.982+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813262033e6c5852ec817b
+2015-06-17T16:40:04.207+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:40:03 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:40:04.411+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:40:14.681+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581326e033e6c5852ec817d
+2015-06-17T16:40:16.112+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:40:26.381+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581327a033e6c5852ec817f
+2015-06-17T16:40:27.845+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:40:34.441+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:40:34 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:40:38.011+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813285033e6c5852ec8181
+2015-06-17T16:40:39.474+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:40:49.881+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813291033e6c5852ec8183
+2015-06-17T16:40:51.378+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:41:01.717+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581329d033e6c5852ec8185
+2015-06-17T16:41:03.148+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:41:04.684+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:41:04 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:41:13.423+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558132a9033e6c5852ec8187
+2015-06-17T16:41:14.920+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:41:25.260+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558132b4033e6c5852ec8189
+2015-06-17T16:41:26.452+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:41:35.026+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:41:34 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:41:36.660+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558132c0033e6c5852ec818b
+2015-06-17T16:41:38.158+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:41:48.495+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558132cc033e6c5852ec818d
+2015-06-17T16:41:49.959+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:42:00.263+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558132d7033e6c5852ec818f
+2015-06-17T16:42:01.420+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:42:05.297+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:42:05 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:42:11.764+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558132e3033e6c5852ec8191
+2015-06-17T16:42:13.263+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:42:23.543+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558132ef033e6c5852ec8193
+2015-06-17T16:42:25.347+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:42:35.581+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:42:35 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:42:35.615+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558132fb033e6c5852ec8195
+2015-06-17T16:42:37.079+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:42:47.383+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813307033e6c5852ec8197
+2015-06-17T16:42:48.847+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:42:59.123+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813312033e6c5852ec8199
+2015-06-17T16:43:00.246+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:43:05.859+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:43:05 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:43:10.416+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581331e033e6c5852ec819b
+2015-06-17T16:43:11.205+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:43:21.881+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813329033e6c5852ec819d
+2015-06-17T16:43:23.107+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:43:33.445+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813335033e6c5852ec819f
+2015-06-17T16:43:34.297+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:43:36.133+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:43:35 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:43:44.635+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813340033e6c5852ec81a1
+2015-06-17T16:43:46.098+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:43:56.369+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581334c033e6c5852ec81a3
+2015-06-17T16:43:57.804+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:44:06.407+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:44:06 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:44:08.074+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813357033e6c5852ec81a5
+2015-06-17T16:44:09.510+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:44:19.787+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813363033e6c5852ec81a7
+2015-06-17T16:44:21.578+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:44:31.850+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581336f033e6c5852ec81a9
+2015-06-17T16:44:32.736+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:44:36.816+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:44:36 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:44:43.039+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581337a033e6c5852ec81ab
+2015-06-17T16:44:44.464+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:44:54.734+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813386033e6c5852ec81ad
+2015-06-17T16:44:56.198+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:45:06.471+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813392033e6c5852ec81af
+2015-06-17T16:45:07.288+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:45:06 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:45:07.901+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:45:18.519+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581339d033e6c5852ec81b1
+2015-06-17T16:45:20.291+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:45:30.595+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558133aa033e6c5852ec81b3
+2015-06-17T16:45:32.025+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:45:37.464+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:45:37 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:45:42.191+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558133b6033e6c5852ec81b5
+2015-06-17T16:45:43.656+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:45:54.063+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558133c1033e6c5852ec81b7
+2015-06-17T16:45:55.254+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:46:05.498+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558133cd033e6c5852ec81b9
+2015-06-17T16:46:06.690+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:46:07.845+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:46:07 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:46:16.957+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558133d8033e6c5852ec81bb
+2015-06-17T16:46:17.161+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:46:27.533+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558133e3033e6c5852ec81bd
+2015-06-17T16:46:28.996+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:46:38.008+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:46:37 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:46:39.165+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558133ef033e6c5852ec81bf
+2015-06-17T16:46:40.662+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:46:51.067+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558133fa033e6c5852ec81c1
+2015-06-17T16:46:52.514+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:47:02.686+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813406033e6c5852ec81c3
+2015-06-17T16:47:03.437+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:47:08.266+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:47:08 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:47:13.708+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813411033e6c5852ec81c5
+2015-06-17T16:47:15.242+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:47:25.579+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581341d033e6c5852ec81c7
+2015-06-17T16:47:27.178+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:47:37.482+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813429033e6c5852ec81c9
+2015-06-17T16:47:38.707+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:47:38.708+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:47:38 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:47:49.011+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813434033e6c5852ec81cb
+2015-06-17T16:47:50.508+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:48:00.810+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813440033e6c5852ec81cd
+2015-06-17T16:48:02.035+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:48:08.873+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:48:08 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:48:12.206+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581344c033e6c5852ec81cf
+2015-06-17T16:48:13.366+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:48:23.671+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813457033e6c5852ec81d1
+2015-06-17T16:48:25.440+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:48:35.812+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813463033e6c5852ec81d3
+2015-06-17T16:48:37.311+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:48:39.148+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:48:38 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:48:47.582+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581346f033e6c5852ec81d5
+2015-06-17T16:48:48.740+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:48:59.044+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581347a033e6c5852ec81d7
+2015-06-17T16:49:00.167+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:49:09.416+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:49:09 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:49:10.442+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813486033e6c5852ec81d9
+2015-06-17T16:49:11.939+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:49:22.311+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813491033e6c5852ec81db
+2015-06-17T16:49:23.842+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:49:34.250+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581349d033e6c5852ec81dd
+2015-06-17T16:49:35.714+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:49:39.589+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:49:39 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:49:45.983+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558134a9033e6c5852ec81df
+2015-06-17T16:49:47.481+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:49:57.785+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558134b5033e6c5852ec81e1
+2015-06-17T16:49:58.368+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:50:08.637+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558134c0033e6c5852ec81e3
+2015-06-17T16:50:09.836+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:50:09.904+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:50:09 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:50:20.179+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558134cb033e6c5852ec81e5
+2015-06-17T16:50:21.438+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:50:31.676+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558134d7033e6c5852ec81e7
+2015-06-17T16:50:32.869+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:50:40.179+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:50:39 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:50:43.139+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558134e2033e6c5852ec81e9
+2015-06-17T16:50:44.644+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:50:55.041+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558134ee033e6c5852ec81eb
+2015-06-17T16:50:56.503+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:51:06.777+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558134fa033e6c5852ec81ed
+2015-06-17T16:51:08.274+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:51:10.484+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:51:10 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:51:18.513+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813506033e6c5852ec81ef
+2015-06-17T16:51:20.261+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:51:30.635+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813512033e6c5852ec81f1
+2015-06-17T16:51:32.067+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:51:40.737+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:51:40 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:51:42.335+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581351e033e6c5852ec81f3
+2015-06-17T16:51:43.526+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:51:53.686+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813529033e6c5852ec81f5
+2015-06-17T16:51:55.116+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:52:05.423+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813535033e6c5852ec81f7
+2015-06-17T16:52:06.214+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:52:11.006+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:52:10 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:52:16.450+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813540033e6c5852ec81f9
+2015-06-17T16:52:18.393+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:52:28.671+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581354c033e6c5852ec81fb
+2015-06-17T16:52:30.236+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:52:40.437+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813558033e6c5852ec81fd
+2015-06-17T16:52:41.603+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:52:41.705+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:52:41 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:52:51.941+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813563033e6c5852ec81ff
+2015-06-17T16:52:53.422+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:53:03.944+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581356f033e6c5852ec8201
+2015-06-17T16:53:05.102+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:53:11.976+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:53:11 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:53:15.318+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581357b033e6c5852ec8203
+2015-06-17T16:53:16.168+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:53:26.426+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813586033e6c5852ec8205
+2015-06-17T16:53:27.617+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:53:37.992+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813591033e6c5852ec8207
+2015-06-17T16:53:39.456+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:53:42.246+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:53:41 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:53:49.625+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581359d033e6c5852ec8209
+2015-06-17T16:53:50.816+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:54:01.090+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558135a8033e6c5852ec820b
+2015-06-17T16:54:01.908+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:54:12.147+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558135b3033e6c5852ec820d
+2015-06-17T16:54:12.561+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:54:12 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:54:12.901+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:54:23.104+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558135be033e6c5852ec820f
+2015-06-17T16:54:24.604+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:54:34.896+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558135ca033e6c5852ec8211
+2015-06-17T16:54:36.359+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:54:42.819+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:54:42 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:54:46.631+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558135d6033e6c5852ec8213
+2015-06-17T16:54:48.094+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:54:58.364+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558135e2033e6c5852ec8215
+2015-06-17T16:54:59.149+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:55:09.353+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558135ed033e6c5852ec8217
+2015-06-17T16:55:10.868+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:55:12.982+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:55:12 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:55:21.147+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 558135f8033e6c5852ec8219
+2015-06-17T16:55:23.105+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:55:33.375+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813605033e6c5852ec821b
+2015-06-17T16:55:34.838+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:55:43.242+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:55:42 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:55:45.180+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813610033e6c5852ec821d
+2015-06-17T16:55:45.725+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:55:55.960+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 5581361b033e6c5852ec821f
+2015-06-17T16:55:56.845+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:56:07.118+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813626033e6c5852ec8221
+2015-06-17T16:56:08.565+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 
+2015-06-17T16:56:13.393+0800 I SHARDING [LockPinger] cluster jock-PC:4006,jock-PC:4007,jock-PC:4008 pinged successfully at Wed Jun 17 16:56:13 2015 by distributed lock pinger 'jock-PC:4006,jock-PC:4007,jock-PC:4008/jock-PC:4009:1434526431:41', sleeping for 30000ms
+2015-06-17T16:56:18.827+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' acquired, ts : 55813632033e6c5852ec8223
+2015-06-17T16:56:19.373+0800 I SHARDING [Balancer] distributed lock 'balancer/jock-PC:4009:1434526431:41' unlocked. 

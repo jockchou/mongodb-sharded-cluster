@@ -1,0 +1,1 @@
+mongod --config C:\data\mongo\cfg\cfg_cnf\cfg_2.conf

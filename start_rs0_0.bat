@@ -1,0 +1,1 @@
+mongod --config C:\data\mongo\rs0\rs0_cnf\rs0_0.conf

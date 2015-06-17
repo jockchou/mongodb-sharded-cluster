@@ -1,0 +1,1 @@
+mongos --config C:\data\mongo\mongos\mongos_cnf\mongos.conf

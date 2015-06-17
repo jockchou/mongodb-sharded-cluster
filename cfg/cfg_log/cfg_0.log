@@ -1,0 +1,1051 @@
+2015-06-17T14:42:50.638+0800 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-06-17T14:42:50.648+0800 I JOURNAL  [initandlisten] journal dir=C:\data\mongo\rs0\rs0_data\rs0_data_0\journal
+2015-06-17T14:42:50.648+0800 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-06-17T14:42:50.660+0800 I JOURNAL  [durability] Durability thread started
+2015-06-17T14:42:50.660+0800 I JOURNAL  [journal writer] Journal writer thread started
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] MongoDB starting : pid=7512 port=4000 dbpath=C:\data\mongo\rs0\rs0_data\rs0_data_0 64-bit host=jock-PC
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] db version v3.0.3
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1m-fips 19 Mar 2015
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] allocator: system
+2015-06-17T14:42:50.665+0800 I CONTROL  [initandlisten] options: { config: "C:\data\mongo\rs0\rs0_cnf\rs0_0.conf", net: { port: 4000 }, replication: { replSet: "rs0" }, storage: { dbPath: "C:\data\mongo\rs0\rs0_data\rs0_data_0", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\data\mongo\rs0\rs0_log\rs0_0.log" } }
+2015-06-17T14:42:50.666+0800 I INDEX    [initandlisten] allocating new ns file C:\data\mongo\rs0\rs0_data\rs0_data_0\local.ns, filling with zeroes...
+2015-06-17T14:42:50.744+0800 I STORAGE  [FileAllocator] allocating new datafile C:\data\mongo\rs0\rs0_data\rs0_data_0\local.0, filling with zeroes...
+2015-06-17T14:42:50.744+0800 I STORAGE  [FileAllocator] creating directory C:\data\mongo\rs0\rs0_data\rs0_data_0\_tmp
+2015-06-17T14:42:50.891+0800 I STORAGE  [FileAllocator] done allocating datafile C:\data\mongo\rs0\rs0_data\rs0_data_0\local.0, size: 64MB,  took 0.144 secs
+2015-06-17T14:42:50.896+0800 I REPL     [initandlisten] Did not find local replica set configuration document at startup;  NoMatchingDocument Did not find replica set configuration document in local.system.replset
+2015-06-17T14:42:50.896+0800 I NETWORK  [initandlisten] waiting for connections on port 4000
+2015-06-17T14:42:53.163+0800 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-06-17T14:42:53.163+0800 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-06-17T14:42:53.164+0800 I CONTROL  [consoleTerminate] now exiting
+2015-06-17T14:42:53.164+0800 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-06-17T14:42:53.164+0800 I NETWORK  [consoleTerminate] closing listening socket: 372
+2015-06-17T14:42:53.164+0800 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-06-17T14:42:53.164+0800 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-06-17T14:42:53.165+0800 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-06-17T14:42:53.165+0800 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-06-17T14:42:53.304+0800 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-06-17T14:42:53.305+0800 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-06-17T14:42:53.306+0800 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-06-17T14:42:53.369+0800 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-06-17T14:42:53.369+0800 I JOURNAL  [durability] Durability thread stopped
+2015-06-17T14:42:53.369+0800 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-06-17T14:42:53.373+0800 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-06-17T14:42:53.373+0800 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-06-17T14:42:53.373+0800 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-06-17T15:28:54.866+0800 I CONTROL  ***** SERVER RESTARTED *****
+2015-06-17T15:28:54.877+0800 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-06-17T15:28:54.894+0800 I JOURNAL  [initandlisten] journal dir=C:\data\mongo\cfg\cfg_data\cfg_data_0\journal
+2015-06-17T15:28:54.895+0800 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-06-17T15:28:54.908+0800 I JOURNAL  [durability] Durability thread started
+2015-06-17T15:28:54.909+0800 I JOURNAL  [journal writer] Journal writer thread started
+2015-06-17T15:28:54.913+0800 I CONTROL  [initandlisten] MongoDB starting : pid=6916 port=4006 dbpath=C:\data\mongo\cfg\cfg_data\cfg_data_0 master=1 64-bit host=jock-PC
+2015-06-17T15:28:54.913+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-06-17T15:28:54.913+0800 I CONTROL  [initandlisten] db version v3.0.3
+2015-06-17T15:28:54.913+0800 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-06-17T15:28:54.913+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1m-fips 19 Mar 2015
+2015-06-17T15:28:54.913+0800 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-06-17T15:28:54.913+0800 I CONTROL  [initandlisten] allocator: system
+2015-06-17T15:28:54.913+0800 I CONTROL  [initandlisten] options: { config: "C:\data\mongo\cfg\cfg_cnf\cfg_0.conf", net: { port: 4006 }, sharding: { clusterRole: "configsvr" }, storage: { dbPath: "C:\data\mongo\cfg\cfg_data\cfg_data_0", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:\data\mongo\cfg\cfg_log\cfg_0.log" } }
+2015-06-17T15:28:54.914+0800 I INDEX    [initandlisten] allocating new ns file C:\data\mongo\cfg\cfg_data\cfg_data_0\local.ns, filling with zeroes...
+2015-06-17T15:28:54.962+0800 I STORAGE  [FileAllocator] allocating new datafile C:\data\mongo\cfg\cfg_data\cfg_data_0\local.0, filling with zeroes...
+2015-06-17T15:28:54.962+0800 I STORAGE  [FileAllocator] creating directory C:\data\mongo\cfg\cfg_data\cfg_data_0\_tmp
+2015-06-17T15:28:54.993+0800 I STORAGE  [FileAllocator] done allocating datafile C:\data\mongo\cfg\cfg_data\cfg_data_0\local.0, size: 16MB,  took 0.029 secs
+2015-06-17T15:28:54.999+0800 I REPL     [initandlisten] ******
+2015-06-17T15:28:54.999+0800 I REPL     [initandlisten] creating replication oplog of size: 5MB...
+2015-06-17T15:28:55.354+0800 I REPL     [initandlisten] ******
+2015-06-17T15:28:55.357+0800 I NETWORK  [initandlisten] waiting for connections on port 4006
+2015-06-17T15:33:51.871+0800 I NETWORK  [initandlisten] connection accepted from 192.168.1.154:59743 #1 (1 connection now open)
+2015-06-17T15:33:51.876+0800 I NETWORK  [initandlisten] connection accepted from 192.168.1.154:59746 #2 (2 connections now open)
+2015-06-17T15:33:51.932+0800 I NETWORK  [conn2] end connection 192.168.1.154:59746 (1 connection now open)
+2015-06-17T15:33:51.935+0800 I NETWORK  [initandlisten] connection accepted from 192.168.1.154:59749 #3 (2 connections now open)
+2015-06-17T15:33:51.948+0800 I NETWORK  [initandlisten] connection accepted from 192.168.1.154:59752 #4 (3 connections now open)
+2015-06-17T15:33:51.948+0800 I NETWORK  [initandlisten] connection accepted from 192.168.1.154:59753 #5 (4 connections now open)
+2015-06-17T15:33:52.000+0800 I INDEX    [conn4] allocating new ns file C:\data\mongo\cfg\cfg_data\cfg_data_0\config.ns, filling with zeroes...
+2015-06-17T15:33:52.124+0800 I STORAGE  [FileAllocator] allocating new datafile C:\data\mongo\cfg\cfg_data\cfg_data_0\config.0, filling with zeroes...
+2015-06-17T15:33:52.161+0800 I STORAGE  [FileAllocator] done allocating datafile C:\data\mongo\cfg\cfg_data\cfg_data_0\config.0, size: 16MB,  took 0.036 secs
+2015-06-17T15:33:52.642+0800 I NETWORK  [initandlisten] connection accepted from 192.168.1.154:59758 #6 (5 connections now open)
+2015-06-17T15:33:52.643+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:33:52.756+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 112ms
+2015-06-17T15:33:53.101+0800 I SHARDING [conn6] first cluster operation detected, adding sharding hook to enable versioning and authentication to remote servers
+2015-06-17T15:33:53.110+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:33:54.444+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 }, acquireWaitCount: { w: 1 }, timeAcquiringMicros: { w: 4848 } } } 1333ms
+2015-06-17T15:33:54.448+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:33:55.177+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 729ms
+2015-06-17T15:33:55.507+0800 I NETWORK  [initandlisten] connection accepted from 192.168.1.154:59764 #7 (6 connections now open)
+2015-06-17T15:33:55.641+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:33:56.377+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 736ms
+2015-06-17T15:33:56.706+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:33:57.768+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1061ms
+2015-06-17T15:33:58.115+0800 I INDEX    [conn6] build index on: config.chunks properties: { v: 1, unique: true, key: { ns: 1, min: 1 }, name: "ns_1_min_1", ns: "config.chunks" }
+2015-06-17T15:33:58.115+0800 I INDEX    [conn6] 	 building index using bulk method
+2015-06-17T15:33:58.117+0800 I INDEX    [conn6] build index done.  scanned 0 total records. 0 secs
+2015-06-17T15:33:58.119+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:33:59.519+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1399ms
+2015-06-17T15:33:59.520+0800 I INDEX    [conn6] build index on: config.chunks properties: { v: 1, unique: true, key: { ns: 1, shard: 1, min: 1 }, name: "ns_1_shard_1_min_1", ns: "config.chunks" }
+2015-06-17T15:33:59.520+0800 I INDEX    [conn6] 	 building index using bulk method
+2015-06-17T15:33:59.521+0800 I INDEX    [conn6] build index done.  scanned 0 total records. 0 secs
+2015-06-17T15:33:59.521+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:34:00.273+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 751ms
+2015-06-17T15:34:00.600+0800 I INDEX    [conn6] build index on: config.chunks properties: { v: 1, unique: true, key: { ns: 1, lastmod: 1 }, name: "ns_1_lastmod_1", ns: "config.chunks" }
+2015-06-17T15:34:00.600+0800 I INDEX    [conn6] 	 building index using bulk method
+2015-06-17T15:34:00.600+0800 I INDEX    [conn6] build index done.  scanned 0 total records. 0 secs
+2015-06-17T15:34:00.601+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:34:01.668+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1066ms
+2015-06-17T15:34:01.670+0800 I INDEX    [conn6] build index on: config.shards properties: { v: 1, unique: true, key: { host: 1 }, name: "host_1", ns: "config.shards" }
+2015-06-17T15:34:01.671+0800 I INDEX    [conn6] 	 building index using bulk method
+2015-06-17T15:34:01.671+0800 I INDEX    [conn6] build index done.  scanned 0 total records. 0 secs
+2015-06-17T15:34:01.672+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:34:02.410+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 738ms
+2015-06-17T15:34:02.416+0800 I INDEX    [conn6] build index on: config.locks properties: { v: 1, key: { ts: 1 }, name: "ts_1", ns: "config.locks" }
+2015-06-17T15:34:02.416+0800 I INDEX    [conn6] 	 building index using bulk method
+2015-06-17T15:34:02.419+0800 I INDEX    [conn6] build index done.  scanned 1 total records. 0 secs
+2015-06-17T15:34:02.420+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:34:03.466+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 }, acquireWaitCount: { w: 1 }, timeAcquiringMicros: { w: 10237 } } } 1045ms
+2015-06-17T15:34:03.798+0800 I INDEX    [conn6] build index on: config.locks properties: { v: 1, key: { state: 1, process: 1 }, name: "state_1_process_1", ns: "config.locks" }
+2015-06-17T15:34:03.798+0800 I INDEX    [conn6] 	 building index using bulk method
+2015-06-17T15:34:03.799+0800 I INDEX    [conn6] build index done.  scanned 1 total records. 0 secs
+2015-06-17T15:34:03.800+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:34:04.522+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 722ms
+2015-06-17T15:34:04.857+0800 I INDEX    [conn6] build index on: config.lockpings properties: { v: 1, key: { ping: 1 }, name: "ping_1", ns: "config.lockpings" }
+2015-06-17T15:34:04.857+0800 I INDEX    [conn6] 	 building index using bulk method
+2015-06-17T15:34:04.857+0800 I INDEX    [conn6] build index done.  scanned 1 total records. 0 secs
+2015-06-17T15:34:04.858+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:34:05.907+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1048ms
+2015-06-17T15:34:06.244+0800 I INDEX    [conn6] build index on: config.tags properties: { v: 1, unique: true, key: { ns: 1, min: 1 }, name: "ns_1_min_1", ns: "config.tags" }
+2015-06-17T15:34:06.244+0800 I INDEX    [conn6] 	 building index using bulk method
+2015-06-17T15:34:06.244+0800 I INDEX    [conn6] build index done.  scanned 0 total records. 0 secs
+2015-06-17T15:34:07.070+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:34:08.051+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 981ms
+2015-06-17T15:34:18.900+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:34:18.969+0800 I NETWORK  [initandlisten] connection accepted from 192.168.1.154:59777 #8 (7 connections now open)
+2015-06-17T15:34:18.970+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:34:20.234+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1333ms
+2015-06-17T15:34:20.933+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 }, acquireWaitCount: { W: 1 }, timeAcquiringMicros: { W: 2762992 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1962ms
+2015-06-17T15:34:22.914+0800 I WRITE    [conn5] remove config.lockpings query: { _id: { $nin: [] }, ping: { $lt: new Date(1434180862369) } } ndeleted:0 keyUpdates:0 writeConflicts:0 numYields:0 locks:{ Global: { acquireCount: { w: 1 } }, MMAPV1Journal: { acquireCount: { w: 1 } }, Database: { acquireCount: { w: 1 } }, Collection: { acquireCount: { W: 1 } } } 262ms
+2015-06-17T15:34:23.017+0800 I COMMAND  [conn5] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 102ms
+2015-06-17T15:34:31.417+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:34:32.418+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1001ms
+2015-06-17T15:34:42.790+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 176ms
+2015-06-17T15:34:43.048+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:34:44.027+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 978ms
+2015-06-17T15:34:54.952+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:34:55.606+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 657ms
+2015-06-17T15:35:06.687+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:35:07.994+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1306ms
+2015-06-17T15:35:18.420+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:35:19.399+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 978ms
+2015-06-17T15:35:20.111+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 227ms
+2015-06-17T15:35:30.450+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:35:31.502+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1051ms
+2015-06-17T15:35:42.013+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:35:42.990+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T15:35:53.819+0800 I NETWORK  [initandlisten] connection accepted from 192.168.1.154:59826 #9 (8 connections now open)
+2015-06-17T15:35:53.823+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:35:55.136+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1313ms
+2015-06-17T15:36:03.838+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:36:04.826+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 987ms
+2015-06-17T15:36:04.997+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:36:05.679+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 681ms
+2015-06-17T15:36:05.892+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:36:06.611+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 719ms
+2015-06-17T15:36:17.523+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:36:18.216+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 693ms
+2015-06-17T15:36:18.531+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 309ms
+2015-06-17T15:36:18.957+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:36:20.288+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1331ms
+2015-06-17T15:36:20.291+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:36:21.648+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1355ms
+2015-06-17T15:36:29.033+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:36:30.013+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 980ms
+2015-06-17T15:36:40.902+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:36:42.212+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1309ms
+2015-06-17T15:36:52.738+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:36:54.057+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1318ms
+2015-06-17T15:37:04.618+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:37:05.577+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 959ms
+2015-06-17T15:37:16.047+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:37:16.720+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 673ms
+2015-06-17T15:37:17.279+0800 I NETWORK  [initandlisten] connection accepted from 192.168.1.154:59875 #10 (9 connections now open)
+2015-06-17T15:37:27.189+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:37:28.225+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1035ms
+2015-06-17T15:37:39.161+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:37:40.139+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T15:37:50.998+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:37:51.684+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 686ms
+2015-06-17T15:38:02.187+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:38:02.841+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 654ms
+2015-06-17T15:38:13.311+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:38:14.018+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 706ms
+2015-06-17T15:38:24.500+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:38:24.850+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 349ms
+2015-06-17T15:38:35.350+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:38:36.328+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T15:38:47.219+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:38:48.203+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 983ms
+2015-06-17T15:38:59.056+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:39:00.038+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 981ms
+2015-06-17T15:39:10.624+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:39:11.598+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 974ms
+2015-06-17T15:39:22.393+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:39:23.732+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1339ms
+2015-06-17T15:39:24.148+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 326ms
+2015-06-17T15:39:34.624+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:39:35.930+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1305ms
+2015-06-17T15:39:46.494+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:39:47.192+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 697ms
+2015-06-17T15:39:47.507+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 312ms
+2015-06-17T15:39:57.876+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 191ms
+2015-06-17T15:39:58.001+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:39:58.364+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 363ms
+2015-06-17T15:40:08.817+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:40:09.500+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 683ms
+2015-06-17T15:40:20.213+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:40:21.532+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1319ms
+2015-06-17T15:40:32.048+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:40:33.357+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1308ms
+2015-06-17T15:40:43.919+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:40:44.286+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 367ms
+2015-06-17T15:40:44.625+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 336ms
+2015-06-17T15:40:55.003+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:40:55.968+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 968ms
+2015-06-17T15:41:06.673+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:41:08.041+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1368ms
+2015-06-17T15:41:18.386+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:41:19.361+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 974ms
+2015-06-17T15:41:20.084+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 302ms
+2015-06-17T15:41:30.457+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:41:31.725+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1304ms
+2015-06-17T15:41:42.120+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 196ms
+2015-06-17T15:41:42.496+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:41:43.471+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 975ms
+2015-06-17T15:41:54.298+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:41:55.289+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 991ms
+2015-06-17T15:42:06.103+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:42:06.771+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 668ms
+2015-06-17T15:42:17.190+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:42:17.851+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 661ms
+2015-06-17T15:42:28.657+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:42:29.018+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 361ms
+2015-06-17T15:42:39.777+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:42:41.091+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1314ms
+2015-06-17T15:42:51.547+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:42:52.528+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 981ms
+2015-06-17T15:43:03.348+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:43:03.681+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 331ms
+2015-06-17T15:43:14.408+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:43:15.088+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 679ms
+2015-06-17T15:43:25.596+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:43:26.582+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 985ms
+2015-06-17T15:43:37.429+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:43:38.721+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1291ms
+2015-06-17T15:43:49.299+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:43:50.276+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T15:44:01.135+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:44:02.164+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1028ms
+2015-06-17T15:44:12.599+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:44:13.631+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1031ms
+2015-06-17T15:44:24.469+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:44:25.783+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1314ms
+2015-06-17T15:44:36.271+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:44:37.259+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 987ms
+2015-06-17T15:44:48.242+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:44:49.556+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1313ms
+2015-06-17T15:45:00.079+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:45:01.045+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 966ms
+2015-06-17T15:45:11.479+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:45:12.486+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1007ms
+2015-06-17T15:45:22.906+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 230ms
+2015-06-17T15:45:23.283+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:45:24.314+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1030ms
+2015-06-17T15:45:35.051+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:45:36.039+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 988ms
+2015-06-17T15:45:36.368+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 323ms
+2015-06-17T15:45:46.722+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 128ms
+2015-06-17T15:45:47.098+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:45:48.075+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T15:45:58.865+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:45:59.530+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 665ms
+2015-06-17T15:46:10.562+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:46:11.871+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1308ms
+2015-06-17T15:46:22.399+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:46:23.427+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1027ms
+2015-06-17T15:46:24.167+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 304ms
+2015-06-17T15:46:34.473+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:46:35.456+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 982ms
+2015-06-17T15:46:46.207+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:46:47.520+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1313ms
+2015-06-17T15:46:58.009+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:46:58.987+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 978ms
+2015-06-17T15:46:59.677+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 339ms
+2015-06-17T15:47:10.031+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 231ms
+2015-06-17T15:47:10.389+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:47:11.366+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 976ms
+2015-06-17T15:47:22.192+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:47:23.525+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1333ms
+2015-06-17T15:47:33.823+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:47:34.814+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 990ms
+2015-06-17T15:47:45.354+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:47:46.405+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1051ms
+2015-06-17T15:47:57.155+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:47:58.440+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1285ms
+2015-06-17T15:48:09.278+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:48:10.569+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1291ms
+2015-06-17T15:48:21.113+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:48:21.477+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 364ms
+2015-06-17T15:48:32.064+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:48:33.041+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T15:48:43.798+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:48:44.470+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 671ms
+2015-06-17T15:48:54.990+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:48:55.654+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 664ms
+2015-06-17T15:49:06.383+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:49:07.688+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1305ms
+2015-06-17T15:49:18.159+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:49:19.140+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 980ms
+2015-06-17T15:49:29.887+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:49:30.874+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 986ms
+2015-06-17T15:49:41.757+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:49:42.780+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1022ms
+2015-06-17T15:49:53.252+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:49:54.280+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1028ms
+2015-06-17T15:50:04.991+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:50:05.974+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 982ms
+2015-06-17T15:50:16.390+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:50:17.376+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 985ms
+2015-06-17T15:50:28.401+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:50:29.380+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 978ms
+2015-06-17T15:50:40.271+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:50:41.593+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1322ms
+2015-06-17T15:50:52.037+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:50:53.014+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 976ms
+2015-06-17T15:51:03.843+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:51:04.833+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 990ms
+2015-06-17T15:51:15.515+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:51:16.807+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1292ms
+2015-06-17T15:51:27.384+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:51:28.364+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 979ms
+2015-06-17T15:51:39.085+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:51:40.408+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1322ms
+2015-06-17T15:51:50.856+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:51:52.166+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1310ms
+2015-06-17T15:52:02.529+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:52:03.512+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 983ms
+2015-06-17T15:52:13.956+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:52:14.628+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 671ms
+2015-06-17T15:52:25.179+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:52:26.192+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1013ms
+2015-06-17T15:52:37.047+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:52:38.028+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 980ms
+2015-06-17T15:52:48.881+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:52:50.164+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1282ms
+2015-06-17T15:53:00.650+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:53:01.643+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 992ms
+2015-06-17T15:53:12.051+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:53:13.029+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 978ms
+2015-06-17T15:53:23.683+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:53:24.702+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1019ms
+2015-06-17T15:53:35.383+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:53:36.362+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 978ms
+2015-06-17T15:53:46.877+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:53:47.871+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 994ms
+2015-06-17T15:53:58.407+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:53:59.371+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 964ms
+2015-06-17T15:54:09.977+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:54:10.954+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T15:54:21.743+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:54:22.736+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 993ms
+2015-06-17T15:54:23.171+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 101ms
+2015-06-17T15:54:33.628+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:54:34.613+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 985ms
+2015-06-17T15:54:45.091+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:54:46.068+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T15:54:56.859+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:54:57.522+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 662ms
+2015-06-17T15:55:08.049+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:55:09.028+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 979ms
+2015-06-17T15:55:20.226+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:55:21.215+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 989ms
+2015-06-17T15:55:32.095+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:55:33.403+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1307ms
+2015-06-17T15:55:43.932+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:55:44.604+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 672ms
+2015-06-17T15:55:55.190+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:55:56.175+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 984ms
+2015-06-17T15:56:06.929+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:56:08.236+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1306ms
+2015-06-17T15:56:18.701+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:56:19.699+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 997ms
+2015-06-17T15:56:30.401+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:56:31.779+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1378ms
+2015-06-17T15:56:42.269+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:56:43.259+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 990ms
+2015-06-17T15:56:53.764+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:56:54.748+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 983ms
+2015-06-17T15:57:05.574+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:57:06.284+0800 I NETWORK  [initandlisten] connection accepted from 192.168.1.154:60533 #11 (10 connections now open)
+2015-06-17T15:57:06.609+0800 I COMMAND  [conn5] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 286ms
+2015-06-17T15:57:06.959+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1385ms
+2015-06-17T15:57:17.367+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:57:18.360+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 993ms
+2015-06-17T15:57:29.100+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:57:30.404+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1303ms
+2015-06-17T15:57:40.970+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:57:41.949+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 979ms
+2015-06-17T15:57:42.646+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 212ms
+2015-06-17T15:57:53.021+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:57:54.333+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1311ms
+2015-06-17T15:58:04.756+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:58:05.740+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 984ms
+2015-06-17T15:58:16.156+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:58:17.137+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 980ms
+2015-06-17T15:58:17.500+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 350ms
+2015-06-17T15:58:28.311+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:58:29.623+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1312ms
+2015-06-17T15:58:40.182+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:58:41.169+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 987ms
+2015-06-17T15:58:51.878+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:58:53.197+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1319ms
+2015-06-17T15:59:03.581+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T15:59:04.572+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 991ms
+2015-06-17T15:59:15.355+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:59:16.641+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1286ms
+2015-06-17T15:59:27.157+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:59:28.145+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 987ms
+2015-06-17T15:59:38.992+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:59:39.973+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 979ms
+2015-06-17T15:59:50.725+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T15:59:52.034+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1309ms
+2015-06-17T16:00:02.395+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:00:03.383+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 988ms
+2015-06-17T16:00:13.828+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:00:14.518+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 690ms
+2015-06-17T16:00:25.313+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 331ms
+2015-06-17T16:00:25.350+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:00:26.343+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 992ms
+2015-06-17T16:00:36.915+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:00:37.891+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 976ms
+2015-06-17T16:00:48.715+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:00:50.024+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1307ms
+2015-06-17T16:01:00.484+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:01:01.148+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 664ms
+2015-06-17T16:01:11.849+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:01:13.167+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1318ms
+2015-06-17T16:01:23.684+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:01:24.390+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 705ms
+2015-06-17T16:01:35.179+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:01:36.496+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1316ms
+2015-06-17T16:01:46.947+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:01:47.953+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1006ms
+2015-06-17T16:01:58.338+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:01:59.317+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 979ms
+2015-06-17T16:02:09.773+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:02:11.091+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1318ms
+2015-06-17T16:02:21.474+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 198ms
+2015-06-17T16:02:21.650+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:02:22.327+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 676ms
+2015-06-17T16:02:23.020+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 282ms
+2015-06-17T16:02:33.225+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:02:34.207+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 982ms
+2015-06-17T16:02:44.824+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:02:45.805+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 981ms
+2015-06-17T16:02:56.624+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:02:57.307+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 686ms
+2015-06-17T16:03:08.296+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:03:09.602+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1306ms
+2015-06-17T16:03:19.933+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 133ms
+2015-06-17T16:03:20.198+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:03:21.185+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 986ms
+2015-06-17T16:03:31.900+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:03:32.574+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 674ms
+2015-06-17T16:03:43.293+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:03:44.581+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1287ms
+2015-06-17T16:03:54.962+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:03:55.939+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T16:04:06.764+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:04:08.073+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1309ms
+2015-06-17T16:04:18.537+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:04:19.511+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 974ms
+2015-06-17T16:04:20.231+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 298ms
+2015-06-17T16:04:30.568+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:04:31.548+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 979ms
+2015-06-17T16:04:42.405+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:04:43.713+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1308ms
+2015-06-17T16:04:54.139+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:04:55.130+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 989ms
+2015-06-17T16:05:05.810+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:05:06.499+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 689ms
+2015-06-17T16:05:16.934+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:05:17.911+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 976ms
+2015-06-17T16:05:28.770+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:05:30.074+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1302ms
+2015-06-17T16:05:40.571+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:05:41.557+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 986ms
+2015-06-17T16:05:41.572+0800 I COMMAND  [conn4] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 116ms
+2015-06-17T16:05:51.897+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:05:52.966+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1069ms
+2015-06-17T16:06:03.634+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:06:04.628+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 992ms
+2015-06-17T16:06:15.034+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:06:16.340+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1306ms
+2015-06-17T16:06:26.835+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:06:28.146+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1311ms
+2015-06-17T16:06:38.669+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:06:39.652+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 981ms
+2015-06-17T16:06:50.439+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:06:51.725+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1285ms
+2015-06-17T16:07:02.073+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:07:02.723+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 650ms
+2015-06-17T16:07:13.333+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:07:14.310+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 976ms
+2015-06-17T16:07:24.864+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:07:26.161+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1297ms
+2015-06-17T16:07:36.733+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:07:37.742+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1009ms
+2015-06-17T16:07:48.601+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:07:49.579+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T16:08:00.403+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:08:01.388+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 984ms
+2015-06-17T16:08:11.906+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:08:12.894+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 988ms
+2015-06-17T16:08:23.401+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:08:24.403+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1002ms
+2015-06-17T16:08:35.202+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:08:36.515+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1312ms
+2015-06-17T16:08:47.108+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:08:48.097+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 988ms
+2015-06-17T16:08:48.429+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 328ms
+2015-06-17T16:08:58.819+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:08:59.801+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 980ms
+2015-06-17T16:09:10.249+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:09:10.931+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 681ms
+2015-06-17T16:09:21.490+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 104ms
+2015-06-17T16:09:21.614+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:09:22.616+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1002ms
+2015-06-17T16:09:33.445+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:09:34.746+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1300ms
+2015-06-17T16:09:45.347+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:09:46.324+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T16:09:57.148+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:09:58.468+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1323ms
+2015-06-17T16:10:08.826+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:10:09.805+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T16:10:20.632+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:10:21.953+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1320ms
+2015-06-17T16:10:32.468+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:10:33.777+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1309ms
+2015-06-17T16:10:44.269+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:10:44.586+0800 I COMMAND  [conn11] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 144ms
+2015-06-17T16:10:45.271+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1000ms
+2015-06-17T16:10:56.073+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:10:56.747+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 673ms
+2015-06-17T16:11:07.544+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:11:08.537+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 992ms
+2015-06-17T16:11:08.952+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 103ms
+2015-06-17T16:11:19.277+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:11:20.588+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1309ms
+2015-06-17T16:11:31.045+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:11:32.352+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1306ms
+2015-06-17T16:11:43.061+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 282ms
+2015-06-17T16:11:43.114+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:11:44.429+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1314ms
+2015-06-17T16:11:54.951+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:11:55.320+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 368ms
+2015-06-17T16:12:05.869+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:12:06.529+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 660ms
+2015-06-17T16:12:16.928+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:12:17.909+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 980ms
+2015-06-17T16:12:18.584+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 261ms
+2015-06-17T16:12:28.956+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:12:29.936+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 979ms
+2015-06-17T16:12:40.827+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:12:42.138+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1311ms
+2015-06-17T16:12:52.492+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:12:53.802+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1310ms
+2015-06-17T16:13:04.259+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:13:05.239+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 979ms
+2015-06-17T16:13:15.590+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:13:16.262+0800 I COMMAND  [conn11] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 330ms
+2015-06-17T16:13:16.270+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 680ms
+2015-06-17T16:13:26.779+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:13:27.755+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 976ms
+2015-06-17T16:13:38.545+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:13:39.853+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1307ms
+2015-06-17T16:13:50.247+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:13:51.537+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1289ms
+2015-06-17T16:14:01.983+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:14:02.941+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 957ms
+2015-06-17T16:14:13.415+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:14:14.394+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 978ms
+2015-06-17T16:14:25.250+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:14:26.231+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 980ms
+2015-06-17T16:14:36.813+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:14:38.127+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1314ms
+2015-06-17T16:14:48.580+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:14:49.552+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 970ms
+2015-06-17T16:15:00.320+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:15:00.990+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 669ms
+2015-06-17T16:15:11.443+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:15:12.480+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1037ms
+2015-06-17T16:15:23.330+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:15:24.643+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1312ms
+2015-06-17T16:15:35.199+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:15:36.176+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 976ms
+2015-06-17T16:15:46.696+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:15:47.679+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 982ms
+2015-06-17T16:15:58.089+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:15:59.066+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 975ms
+2015-06-17T16:15:59.415+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 330ms
+2015-06-17T16:16:09.795+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:16:10.778+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 983ms
+2015-06-17T16:16:21.481+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 181ms
+2015-06-17T16:16:21.724+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:16:22.400+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 676ms
+2015-06-17T16:16:23.111+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 229ms
+2015-06-17T16:16:33.384+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:16:34.418+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1033ms
+2015-06-17T16:16:45.322+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:16:46.620+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1297ms
+2015-06-17T16:16:56.989+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:16:57.363+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 374ms
+2015-06-17T16:17:07.914+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:17:08.892+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 978ms
+2015-06-17T16:17:19.904+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 292ms
+2015-06-17T16:17:20.041+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:17:20.706+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 665ms
+2015-06-17T16:17:31.222+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:17:32.201+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 978ms
+2015-06-17T16:17:43.246+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 327ms
+2015-06-17T16:17:43.383+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:17:44.366+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 981ms
+2015-06-17T16:17:55.121+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:17:55.781+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 659ms
+2015-06-17T16:18:06.517+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:18:06.861+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 344ms
+2015-06-17T16:18:17.607+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:18:18.943+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1335ms
+2015-06-17T16:18:29.408+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:18:30.695+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1287ms
+2015-06-17T16:18:41.174+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:18:42.457+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1283ms
+2015-06-17T16:18:53.077+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:18:54.364+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1285ms
+2015-06-17T16:19:04.811+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:19:05.790+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 979ms
+2015-06-17T16:19:16.179+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:19:17.162+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 982ms
+2015-06-17T16:19:20.253+0800 I COMMAND  [conn11] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 231ms
+2015-06-17T16:19:27.936+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 164ms
+2015-06-17T16:19:28.113+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:19:29.150+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1035ms
+2015-06-17T16:19:40.084+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:19:41.074+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 990ms
+2015-06-17T16:19:51.850+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:19:53.168+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1317ms
+2015-06-17T16:20:03.614+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:20:04.615+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1000ms
+2015-06-17T16:20:14.979+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:20:16.286+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1307ms
+2015-06-17T16:20:26.782+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:20:28.090+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1308ms
+2015-06-17T16:20:38.616+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:20:39.596+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 978ms
+2015-06-17T16:20:50.385+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:20:51.361+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 976ms
+2015-06-17T16:20:51.362+0800 I COMMAND  [conn4] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 160ms
+2015-06-17T16:20:51.686+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 310ms
+2015-06-17T16:20:52.043+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 286ms
+2015-06-17T16:20:52.043+0800 I COMMAND  [conn4] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 285ms
+2015-06-17T16:21:02.368+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:21:03.333+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 965ms
+2015-06-17T16:21:13.727+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:21:14.402+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 674ms
+2015-06-17T16:21:24.819+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:21:25.812+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 993ms
+2015-06-17T16:21:36.485+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:21:37.468+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 982ms
+2015-06-17T16:21:48.253+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:21:49.587+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1333ms
+2015-06-17T16:22:00.121+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:22:00.783+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 661ms
+2015-06-17T16:22:11.332+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 111ms
+2015-06-17T16:22:11.586+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:22:12.915+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1329ms
+2015-06-17T16:22:22.916+0800 I COMMAND  [conn5] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 196ms
+2015-06-17T16:22:23.298+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:22:24.306+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1006ms
+2015-06-17T16:22:34.897+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:22:35.872+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 974ms
+2015-06-17T16:22:46.835+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:22:47.821+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 985ms
+2015-06-17T16:22:58.570+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:22:59.549+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T16:23:09.866+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:23:10.847+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 980ms
+2015-06-17T16:23:21.481+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 144ms
+2015-06-17T16:23:21.737+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:23:22.420+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 682ms
+2015-06-17T16:23:33.510+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:23:34.490+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 979ms
+2015-06-17T16:23:44.838+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:23:45.816+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T16:23:56.503+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:23:57.178+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 675ms
+2015-06-17T16:24:07.936+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:24:08.916+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 979ms
+2015-06-17T16:24:19.951+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 249ms
+2015-06-17T16:24:20.088+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:24:21.064+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 975ms
+2015-06-17T16:24:31.959+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:24:33.243+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1283ms
+2015-06-17T16:24:43.687+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:24:44.674+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 987ms
+2015-06-17T16:24:55.491+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:24:56.463+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 971ms
+2015-06-17T16:24:56.894+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 103ms
+2015-06-17T16:25:07.296+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:25:08.276+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 980ms
+2015-06-17T16:25:18.594+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:25:19.916+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1321ms
+2015-06-17T16:25:30.364+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:25:31.338+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 974ms
+2015-06-17T16:25:42.133+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:25:43.110+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T16:25:53.900+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:25:54.573+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 673ms
+2015-06-17T16:25:54.907+0800 I COMMAND  [conn4] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 326ms
+2015-06-17T16:25:55.264+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 357ms
+2015-06-17T16:26:05.638+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:26:06.624+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 985ms
+2015-06-17T16:26:17.412+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:26:18.466+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1053ms
+2015-06-17T16:26:29.181+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:26:30.492+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1310ms
+2015-06-17T16:26:41.050+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:26:42.027+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 976ms
+2015-06-17T16:26:52.751+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:26:53.726+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 975ms
+2015-06-17T16:27:04.520+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:27:05.904+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1383ms
+2015-06-17T16:27:16.286+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:27:17.578+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1292ms
+2015-06-17T16:27:28.223+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:27:29.532+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1309ms
+2015-06-17T16:27:39.999+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:27:41.005+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1006ms
+2015-06-17T16:27:51.629+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:27:52.618+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 988ms
+2015-06-17T16:28:03.097+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:28:04.057+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 959ms
+2015-06-17T16:28:14.559+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:28:15.533+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 974ms
+2015-06-17T16:28:26.325+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:28:26.991+0800 I COMMAND  [conn5] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 189ms
+2015-06-17T16:28:27.328+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1003ms
+2015-06-17T16:28:37.684+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:28:38.697+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1012ms
+2015-06-17T16:28:49.220+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:28:49.904+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 684ms
+2015-06-17T16:29:00.680+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:29:01.661+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 980ms
+2015-06-17T16:29:11.976+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:29:12.959+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 982ms
+2015-06-17T16:29:23.782+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:29:24.779+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 997ms
+2015-06-17T16:29:35.259+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:29:36.237+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T16:29:46.788+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:29:47.145+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 356ms
+2015-06-17T16:29:57.846+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:29:58.505+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 658ms
+2015-06-17T16:30:08.942+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:30:10.245+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1302ms
+2015-06-17T16:30:20.551+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:30:21.867+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1315ms
+2015-06-17T16:30:32.353+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:30:33.664+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1309ms
+2015-06-17T16:30:44.121+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:30:45.458+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1336ms
+2015-06-17T16:30:55.962+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:30:56.925+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 963ms
+2015-06-17T16:31:07.729+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:31:08.388+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 658ms
+2015-06-17T16:31:18.787+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:31:19.776+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 989ms
+2015-06-17T16:31:30.691+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:31:31.998+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1307ms
+2015-06-17T16:31:42.526+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:31:43.532+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1005ms
+2015-06-17T16:31:43.857+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 322ms
+2015-06-17T16:31:54.331+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:31:55.320+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 988ms
+2015-06-17T16:32:06.038+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:32:07.346+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1308ms
+2015-06-17T16:32:17.879+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:32:18.258+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 377ms
+2015-06-17T16:32:28.764+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:32:29.440+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 676ms
+2015-06-17T16:32:39.851+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:32:40.837+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 986ms
+2015-06-17T16:32:51.621+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:32:52.608+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 986ms
+2015-06-17T16:33:03.290+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:33:03.639+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 348ms
+2015-06-17T16:33:14.286+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:33:15.596+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1309ms
+2015-06-17T16:33:26.188+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:33:27.472+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1284ms
+2015-06-17T16:33:37.960+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:33:39.269+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1309ms
+2015-06-17T16:33:49.728+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:33:50.716+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 987ms
+2015-06-17T16:34:01.434+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:34:02.432+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 997ms
+2015-06-17T16:34:12.896+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:34:14.239+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1343ms
+2015-06-17T16:34:24.701+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:34:26.024+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1323ms
+2015-06-17T16:34:36.571+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:34:37.546+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 975ms
+2015-06-17T16:34:37.984+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 103ms
+2015-06-17T16:34:48.374+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:34:49.688+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1314ms
+2015-06-17T16:35:00.209+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:35:00.848+0800 I COMMAND  [conn11] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 162ms
+2015-06-17T16:35:01.494+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1285ms
+2015-06-17T16:35:11.880+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:35:13.200+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1318ms
+2015-06-17T16:35:23.749+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:35:25.090+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1340ms
+2015-06-17T16:35:35.552+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:35:36.565+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1013ms
+2015-06-17T16:35:46.902+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 153ms
+2015-06-17T16:35:47.148+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:35:48.461+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1312ms
+2015-06-17T16:35:58.882+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:35:59.867+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 988ms
+2015-06-17T16:36:10.213+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:36:11.188+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 974ms
+2015-06-17T16:36:21.984+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:36:22.988+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1002ms
+2015-06-17T16:36:33.854+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:36:34.534+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 679ms
+2015-06-17T16:36:45.112+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:36:46.421+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1309ms
+2015-06-17T16:36:56.879+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:37:07.700+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:37:08.740+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1039ms
+2015-06-17T16:37:19.197+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:37:20.256+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1059ms
+2015-06-17T16:37:30.999+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:37:32.310+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1311ms
+2015-06-17T16:37:42.903+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:37:43.891+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 988ms
+2015-06-17T16:37:44.229+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 322ms
+2015-06-17T16:37:54.737+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:37:56.060+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1322ms
+2015-06-17T16:38:06.443+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:38:07.487+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1044ms
+2015-06-17T16:38:17.946+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:38:19.261+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1314ms
+2015-06-17T16:38:29.647+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:38:30.630+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 983ms
+2015-06-17T16:38:41.448+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:38:42.436+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 988ms
+2015-06-17T16:38:53.044+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:38:54.349+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1304ms
+2015-06-17T16:39:04.816+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:39:05.800+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 984ms
+2015-06-17T16:39:16.215+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:39:17.201+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 986ms
+2015-06-17T16:39:27.980+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:39:29.020+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1039ms
+2015-06-17T16:39:39.786+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:39:41.105+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1319ms
+2015-06-17T16:39:51.587+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:39:52.577+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 989ms
+2015-06-17T16:40:02.982+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:40:03.962+0800 I COMMAND  [conn9] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 196ms
+2015-06-17T16:40:03.977+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 994ms
+2015-06-17T16:40:14.682+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:40:15.991+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1308ms
+2015-06-17T16:40:26.382+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:40:27.357+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 975ms
+2015-06-17T16:40:38.012+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:40:39.298+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1286ms
+2015-06-17T16:40:49.882+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:40:51.199+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1316ms
+2015-06-17T16:41:01.718+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:41:02.711+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 992ms
+2015-06-17T16:41:13.423+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:41:14.396+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 972ms
+2015-06-17T16:41:25.261+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:41:26.300+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1038ms
+2015-06-17T16:41:36.661+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:41:37.637+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 975ms
+2015-06-17T16:41:48.496+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:41:49.482+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 986ms
+2015-06-17T16:42:00.264+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:42:01.254+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 990ms
+2015-06-17T16:42:11.765+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:42:13.083+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1317ms
+2015-06-17T16:42:23.544+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:42:24.548+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1004ms
+2015-06-17T16:42:35.616+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:42:36.603+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 986ms
+2015-06-17T16:42:47.384+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:42:48.364+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 979ms
+2015-06-17T16:42:59.124+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:43:00.106+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 986ms
+2015-06-17T16:43:10.417+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:43:11.076+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 659ms
+2015-06-17T16:43:21.506+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 295ms
+2015-06-17T16:43:21.881+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:43:22.600+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 717ms
+2015-06-17T16:43:33.446+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:43:33.807+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 360ms
+2015-06-17T16:43:44.636+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:43:45.613+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 977ms
+2015-06-17T16:43:56.369+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:43:57.340+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 970ms
+2015-06-17T16:44:08.075+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:44:09.063+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 988ms
+2015-06-17T16:44:19.788+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:44:20.774+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 986ms
+2015-06-17T16:44:21.510+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 326ms
+2015-06-17T16:44:31.850+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:44:32.540+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 688ms
+2015-06-17T16:44:43.040+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:44:44.036+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 995ms
+2015-06-17T16:44:44.362+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 324ms
+2015-06-17T16:44:54.735+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:44:56.066+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1331ms
+2015-06-17T16:45:06.472+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:45:07.115+0800 I COMMAND  [conn5] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 200ms
+2015-06-17T16:45:07.789+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1316ms
+2015-06-17T16:45:18.520+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:45:19.825+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1305ms
+2015-06-17T16:45:20.223+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 308ms
+2015-06-17T16:45:30.596+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:45:31.914+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1318ms
+2015-06-17T16:45:42.192+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:45:43.169+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 976ms
+2015-06-17T16:45:54.064+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:45:55.059+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 995ms
+2015-06-17T16:46:05.498+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:46:06.493+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 994ms
+2015-06-17T16:46:16.957+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:46:27.534+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:46:28.827+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1293ms
+2015-06-17T16:46:39.166+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:46:40.463+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1297ms
+2015-06-17T16:46:51.068+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:46:52.377+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1307ms
+2015-06-17T16:47:02.686+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:47:03.328+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 641ms
+2015-06-17T16:47:13.709+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:47:14.693+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 983ms
+2015-06-17T16:47:15.110+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 105ms
+2015-06-17T16:47:25.580+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:47:26.978+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1398ms
+2015-06-17T16:47:37.483+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:47:38.471+0800 I COMMAND  [conn11] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 103ms
+2015-06-17T16:47:38.498+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1015ms
+2015-06-17T16:47:49.012+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:47:50.000+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 988ms
+2015-06-17T16:48:00.810+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:48:01.794+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 983ms
+2015-06-17T16:48:12.207+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:48:12.881+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 674ms
+2015-06-17T16:48:23.671+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:48:24.926+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1254ms
+2015-06-17T16:48:35.813+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:48:36.799+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 985ms
+2015-06-17T16:48:47.582+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:48:48.577+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 994ms
+2015-06-17T16:48:59.044+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:49:00.027+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 985ms
+2015-06-17T16:49:10.442+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:49:11.421+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 978ms
+2015-06-17T16:49:22.312+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:49:23.314+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1002ms
+2015-06-17T16:49:34.250+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:49:35.226+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 975ms
+2015-06-17T16:49:45.984+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:49:47.288+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1302ms
+2015-06-17T16:49:57.786+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:49:58.118+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 331ms
+2015-06-17T16:50:08.638+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:50:09.685+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1047ms
+2015-06-17T16:50:20.179+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:50:21.185+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1005ms
+2015-06-17T16:50:31.677+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:50:32.359+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 681ms
+2015-06-17T16:50:43.139+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:50:44.447+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1307ms
+2015-06-17T16:50:55.041+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:50:56.015+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 973ms
+2015-06-17T16:51:06.778+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:51:08.087+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1309ms
+2015-06-17T16:51:18.514+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:51:19.486+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 972ms
+2015-06-17T16:51:20.193+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 284ms
+2015-06-17T16:51:30.636+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:51:31.610+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 973ms
+2015-06-17T16:51:42.335+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:51:43.011+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 675ms
+2015-06-17T16:51:53.687+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:51:54.671+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 984ms
+2015-06-17T16:52:05.424+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:52:06.082+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 658ms
+2015-06-17T16:52:16.451+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:52:17.761+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1309ms
+2015-06-17T16:52:28.672+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:52:29.716+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1043ms
+2015-06-17T16:52:40.437+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:52:41.397+0800 I COMMAND  [conn9] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 313ms
+2015-06-17T16:52:41.423+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 985ms
+2015-06-17T16:52:51.942+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:52:52.935+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 993ms
+2015-06-17T16:52:53.252+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 313ms
+2015-06-17T16:53:03.945+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:53:04.900+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 954ms
+2015-06-17T16:53:15.318+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:53:15.984+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 665ms
+2015-06-17T16:53:26.427+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:53:27.421+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 994ms
+2015-06-17T16:53:37.993+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:53:39.303+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1309ms
+2015-06-17T16:53:49.626+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:53:50.619+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 993ms
+2015-06-17T16:54:01.091+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:54:01.752+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 661ms
+2015-06-17T16:54:12.148+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:54:12.484+0800 I COMMAND  [conn4] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 195ms
+2015-06-17T16:54:12.499+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 351ms
+2015-06-17T16:54:23.105+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:54:24.091+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 986ms
+2015-06-17T16:54:34.896+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:54:36.185+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1288ms
+2015-06-17T16:54:46.631+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:54:47.607+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 975ms
+2015-06-17T16:54:58.365+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:54:59.010+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 645ms
+2015-06-17T16:55:09.354+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:55:10.344+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 990ms
+2015-06-17T16:55:10.663+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:122 locks:{} 314ms
+2015-06-17T16:55:21.148+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:55:22.543+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1395ms
+2015-06-17T16:55:22.969+0800 I COMMAND  [conn7] command admin.$cmd command: getLastError { getlasterror: 1, fsync: 1 } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:140 locks:{} 324ms
+2015-06-17T16:55:33.376+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:55:34.663+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1286ms
+2015-06-17T16:55:45.181+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:55:45.544+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 363ms
+2015-06-17T16:55:55.961+0800 I STORAGE  [conn6] CMD fsync: sync:1 lock:0
+2015-06-17T16:55:56.647+0800 I COMMAND  [conn6] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 686ms
+2015-06-17T16:56:07.119+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:56:08.426+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 1307ms
+2015-06-17T16:56:18.828+0800 I STORAGE  [conn8] CMD fsync: sync:1 lock:0
+2015-06-17T16:56:19.180+0800 I COMMAND  [conn8] command admin.$cmd command: fsync { fsync: true } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:51 locks:{ Global: { acquireCount: { r: 1, W: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } } } 352ms
