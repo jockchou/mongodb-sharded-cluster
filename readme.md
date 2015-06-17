@@ -69,9 +69,9 @@
 	
 ## 最简部署案例： ##
 
-> A,B: 表示mongodb复制集实例
-> C: 表示配置实例
-> M: 表示物理主机
+> A,B: 表示mongodb复制集实例  
+> C: 表示配置实例  
+> M: 表示物理主机  
 
 ```
 	A1 -> shard1 rs0 PRIMARY   4000
@@ -96,14 +96,14 @@
 
 把A,B,C中的节点分开到不同物理主机上，避免一台主机宕机后，整个复制集失效，无法自动故障转移
 
-> PRIMARY,SECONDARY可互相转换，要求磁盘和CPU高
-> ARBITER节点只做仲裁，不保存数据，要求磁盘和CPU低
-> cfg节点只做简单数据保存，要求磁盘低
+> PRIMARY,SECONDARY可互相转换，要求磁盘和CPU高  
+> ARBITER节点只做仲裁，不保存数据，要求磁盘和CPU低  
+> cfg节点只做简单数据保存，要求磁盘低  
 
 如果机器配置相差不多，交差部署搭配原则:
 
-> PRIMARY优先搭配ARBITER和cfg节点
-> SECONDARY优先搭配cfg节点
+> PRIMARY优先搭配ARBITER和cfg节点  
+> SECONDARY优先搭配cfg节点  
 	
 	
 如果有4个相同配置的机器，以下布署方案能让资源得到最高利用
