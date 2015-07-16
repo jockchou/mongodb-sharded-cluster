@@ -1,0 +1,23 @@
+#process
+processManagement:
+    fork: true
+    pidFilePath: #basedir#/mongos/mongos.pid
+    
+    
+#net
+net:
+    bindIp: #bindIp#
+    port: #port#
+    
+    
+#log
+systemLog:
+    destination: file
+    path: #basedir#/mongos/log/mongos.log
+    logAppend: true
+    verbosity: 0
+    
+    
+#shard
+sharding:
+    configDB: #configDB#

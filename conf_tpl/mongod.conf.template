@@ -1,0 +1,57 @@
+#process
+processManagement:
+    fork: true
+    pidFilePath: #basedir#/#rs#/#node#/mongod.pid
+
+    
+#net
+net:
+    bindIp: #bindIp#
+    port: #port#
+
+    
+#storage
+storage:
+    dbPath: #basedir#/#rs#/#node#/data
+    journal:
+        enabled: true
+    directoryPerDB: true
+    syncPeriodSecs: 60
+    engine: wiredTiger
+    wiredTiger:
+        engineConfig:
+            statisticsLogDelaySecs: 0
+            journalCompressor: snappy
+            directoryForIndexes: true
+        collectionConfig:
+            blockCompressor: snappy
+        indexConfig:
+            prefixCompression: true
+
+            
+#log
+systemLog:
+    destination: file
+    path: #basedir#/#rs#/#node#/log/mongod.log
+    logAppend: true
+    verbosity: 0
+
+    
+#profiling
+operationProfiling:
+    slowOpThresholdMs: 100
+    mode: slowOp
+
+    
+#replication
+replication:
+    oplogSizeMB: 1024
+    replSetName: #rs#
+
+    
+#shard
+sharding:
+    clusterRole: shardsvr
+    archiveMovedChunks: true
+    chunkSize: 64
+    

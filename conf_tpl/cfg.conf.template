@@ -1,0 +1,48 @@
+#process
+processManagement:
+    fork: true
+    pidFilePath: #basedir#/cfg/#node#/cfg.pid
+    
+    
+#net
+net:
+    bindIp: #bindIp#
+    port: #port#
+    
+    
+#storage
+storage:
+    dbPath: #basedir#/cfg/#node#/data
+    journal:
+        enabled: true
+    directoryPerDB: true
+    syncPeriodSecs: 60
+    engine: wiredTiger
+    wiredTiger:
+        engineConfig:
+            statisticsLogDelaySecs: 0
+            journalCompressor: snappy
+            directoryForIndexes: true
+        collectionConfig:
+            blockCompressor: snappy
+        indexConfig:
+            prefixCompression: true
+            
+            
+#log
+systemLog:
+    destination: file
+    path: #basedir#/cfg/#node#/log/cfg.log
+    logAppend: true
+    verbosity: 0
+    
+    
+#profiling
+operationProfiling:
+    slowOpThresholdMs: 100
+    mode: slowOp
+    
+    
+#shard
+sharding:
+    clusterRole: configsvr
