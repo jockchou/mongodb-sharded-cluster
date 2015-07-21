@@ -1,5 +1,20 @@
 ## MongoDB集群部署 ##
 
+创建组和用户
+
+```
+groupadd -g 996 mongod
+useradd -u 996 -s /bin/false -g mongod mongod
+```
+
+## 设置操作系统的环境 ##
+```
+echo "never">"/sys/kernel/mm/transparent_hugepage/enabled" 
+echo "never">"/sys/kernel/mm/transparent_hugepage/defrag" 
+ulimit -n 64000
+```
+
+
 ## 1.启动复制集中mongod实例，运行: ##
 
 ```
@@ -12,7 +27,7 @@
 	start_rs1_2.bat		-> 4005 (ARBITER)
 ```
 
-## 2.初始化配置复制集rs0 ##
+## 2.初始化复制集rs0 ##
 
 ```
 	//初始化，配置
@@ -26,7 +41,7 @@
 	rs0:PRIMARY> rs.status()
 ```
 
-## 3.初始化配置复制集rs1（同上） ##
+## 3.初始化复制集rs1（同上） ##
 
 ```
 	//初始化，配置
